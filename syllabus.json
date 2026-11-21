@@ -359,8 +359,278 @@
   "Geography": [],
   "Government": [],
   "Hausa": [],
-  "History": [],
-  "Home Economics": [],
+  "History": [
+    {
+      "topic": "Land and peoples of the Nigeria area",
+      "detail": "Geographical zones, peoples, environment, physical features and relationships among communities."
+    },
+    {
+      "topic": "Early centres of civilization",
+      "detail": "Nok, Daima, Ife, Benin, Igbo-Ukwu and Iwo Eleru; monuments, settlements and shelter systems."
+    },
+    {
+      "topic": "Origins and formation of states in the Nigeria area",
+      "detail": "Origins, migration, political and social systems, religion and relations among peoples in the Central Sudan, Niger-Benue Valley, forest belts and Niger Delta."
+    },
+    {
+      "topic": "Economic activities and growth of states",
+      "detail": "Agriculture, crafts and industries, local and long-distance trade, trade routes and the expansion of states."
+    },
+    {
+      "topic": "External influences",
+      "detail": "North African and Arab contacts, Islam, European coastal trade, the trans-Atlantic slave trade and early Christian missions."
+    },
+    {
+      "topic": "The Sokoto Caliphate",
+      "detail": "The Jihad, its causes and course, establishment and administration of the Caliphate, relations with neighbours, achievements and decline."
+    },
+    {
+      "topic": "Kanem-Borno",
+      "detail": "The Saifawa dynasty, Borno under the Shehus and Rabeh, and relations between Borno and the Sokoto Caliphate."
+    },
+    {
+      "topic": "Yorubaland",
+      "detail": "The fall of Old Oyo, Yoruba wars, the 1886 peace treaty and their consequences."
+    },
+    {
+      "topic": "Benin",
+      "detail": "Political and cultural development in Benin and its relations with neighbouring states and Europeans."
+    },
+    {
+      "topic": "Nupe",
+      "detail": "Nupe political and cultural development, relations with neighbours and the nature of Nupe imperialism."
+    },
+    {
+      "topic": "Igbo",
+      "detail": "Igbo political and cultural development and relations with neighbouring communities."
+    },
+    {
+      "topic": "Efik",
+      "detail": "Efik political and cultural development and relations with neighbouring communities."
+    },
+    {
+      "topic": "European penetration and impact",
+      "detail": "Exploration, suppression of the slave trade, commodity trade, consular authority, missions and trading companies."
+    },
+    {
+      "topic": "British conquest of the Nigeria area",
+      "detail": "The phases, motives and methods of British conquest, local resistance and the consequences of conquest."
+    },
+    {
+      "topic": "Establishment of colonial rule up to 1914",
+      "detail": "Occupation and pacification, resistance movements and administration of the Protectorates."
+    },
+    {
+      "topic": "The Amalgamation of 1914",
+      "detail": "Reasons for the amalgamation of Northern and Southern Nigeria and its effects."
+    },
+    {
+      "topic": "Colonial administration after the Amalgamation",
+      "detail": "Central government, indirect rule, Native Authorities, courts and treasuries, and anti-colonial resistance."
+    },
+    {
+      "topic": "The colonial economy",
+      "detail": "Currency, taxation, labour, transport, communications, agriculture, mining, industry, commerce and banking."
+    },
+    {
+      "topic": "Social development under colonial rule",
+      "detail": "Western education, urbanization, social integration, improvement unions and health institutions."
+    },
+    {
+      "topic": "Constitutional developments, nationalism and independence",
+      "detail": "The Clifford, Richards, Macpherson and Lyttleton constitutions, nationalist movements, party politics, constitutional conferences and independence."
+    },
+    {
+      "topic": "Politics of the First Republic and military intervention",
+      "detail": "Political competition, revenue allocation, census controversies, the 1963 Constitution, minority issues, the 1964/65 elections and the 1966 coups."
+    },
+    {
+      "topic": "The Nigerian Civil War",
+      "detail": "Causes, course and effects of the Nigerian Civil War."
+    },
+    {
+      "topic": "The Gowon regime",
+      "detail": "Major challenges, policies and achievements of the Gowon administration."
+    },
+    {
+      "topic": "Murtala/Obasanjo regime",
+      "detail": "Major challenges, policies and achievements of the Murtala/Obasanjo administration."
+    },
+    {
+      "topic": "The Second Republic",
+      "detail": "Political structure, major developments, challenges and achievements of the Second Republic."
+    },
+    {
+      "topic": "The Buhari regime",
+      "detail": "Major policies, challenges and achievements of the Buhari administration."
+    },
+    {
+      "topic": "The Babangida regime",
+      "detail": "Major policies, political developments, challenges and achievements of the Babangida administration."
+    },
+    {
+      "topic": "The Interim National Government",
+      "detail": "Formation, role, activities and challenges of the Interim National Government."
+    },
+    {
+      "topic": "The Abacha regime",
+      "detail": "Major policies, political developments, challenges and achievements of the Abacha administration."
+    },
+    {
+      "topic": "Transition to the Fourth Republic",
+      "detail": "The Abdulsalami administration, transition process and development of the Fourth Republic."
+    },
+    {
+      "topic": "Nigeria in international organizations",
+      "detail": "Nigeria’s roles in ECOWAS, the African Union, Commonwealth, OPEC and the United Nations, including peacekeeping."
+    },
+    {
+      "topic": "Islamic reform movements and state building in West Africa",
+      "detail": "Links among West African jihads, the movements of Seku Ahmadu and Al-Hajj Umar, and Samori Toure."
+    },
+    {
+      "topic": "Sierra Leone, Liberia and Christian missionary activities in West Africa",
+      "detail": "Founding of Sierra Leone and Liberia, spread of Christianity and the work and impact of missionaries."
+    },
+    {
+      "topic": "Egypt under Mohammed Ali and Khedive Ismail",
+      "detail": "Mohammed Ali’s rise and reforms, relations with Europe, Ismail’s fiscal policies and British occupation."
+    },
+    {
+      "topic": "Ethiopia in the 19th century",
+      "detail": "The rise and unification efforts of Theodore II and Menelik II’s role in preserving Ethiopian independence."
+    },
+    {
+      "topic": "The Mfecane",
+      "detail": "The rise of the Zulu nation and the causes, course and consequences of the Mfecane."
+    },
+    {
+      "topic": "The Great Trek",
+      "detail": "Frontier wars, British involvement in Boer-African relations, the Great Trek and its consequences."
+    },
+    {
+      "topic": "New Imperialism and European occupation of Africa",
+      "detail": "The scramble for Africa, Berlin Conference, European occupation and African resistance."
+    },
+    {
+      "topic": "Patterns of colonial rule in Africa",
+      "detail": "Comparison of British, French, Portuguese, Belgian, German and Spanish colonial systems."
+    },
+    {
+      "topic": "Politics of decolonization",
+      "detail": "Colonial policies, African resistance, effects of the World Wars, nationalist organizations and routes to independence."
+    },
+    {
+      "topic": "Apartheid in South Africa",
+      "detail": "Origins, Afrikaner nationalism, apartheid laws, resistance, international opposition, dismantling and post-apartheid developments."
+    },
+    {
+      "topic": "Problems of nation-building in Africa",
+      "detail": "Political, economic, environmental, ethnic, religious and security challenges; neo-colonialism, borders, conflict, displacement and globalization."
+    }
+  ],
+  "Home Economics": [
+    {
+      "topic": "Home Economics",
+      "detail": "Meaning, scope, importance, objectives and ideals of Home Economics."
+    },
+    {
+      "topic": "Areas and careers in Home Economics",
+      "detail": "Career paths in home management, food and nutrition, clothing and textiles, family and child development, teaching, counselling, media and research."
+    },
+    {
+      "topic": "Relationship of Home Economics with other subjects",
+      "detail": "Connections with Biology, Geography, Chemistry, Physics, Agricultural Science, Fine Arts, Economics, Mathematics and Civic Education."
+    },
+    {
+      "topic": "Principles of home management",
+      "detail": "Meaning and stages of management, decision-making and motivators such as goals, values, needs and wants."
+    },
+    {
+      "topic": "Resources",
+      "detail": "Human and material resources, time and energy management, work simplification, skills, income, budgeting, saving, banking and insurance."
+    },
+    {
+      "topic": "Family living",
+      "detail": "Family types and functions, family life cycle, relationships, personality, adolescence, family crises, conflict resolution, human rights and family communication."
+    },
+    {
+      "topic": "Marriage and reproductive health",
+      "detail": "Marriage and courtship, preparation for marriage, family planning, reproductive health and prevention of sexually transmitted infections."
+    },
+    {
+      "topic": "Pregnancy and childbirth",
+      "detail": "Pregnancy, labour, delivery, postnatal care, infant and toddler care, child development, immunization, play and parenting."
+    },
+    {
+      "topic": "Housing the family",
+      "detail": "Types of homes, choosing and acquiring a house, interior decoration, furniture, furnishings, ornaments, utilities and communication devices."
+    },
+    {
+      "topic": "Home surfaces",
+      "detail": "Types and care of household surfaces and coverings, cleaning agents and appropriate cleaning methods."
+    },
+    {
+      "topic": "Sanitation in the home",
+      "detail": "Home sanitation, drainage, refuse disposal, household pests, pest control, pollution and related health hazards."
+    },
+    {
+      "topic": "Consumer education",
+      "detail": "Consumer information, markets, purchasing, advertising, consumer rights and responsibilities, and regulatory agencies."
+    },
+    {
+      "topic": "Foods and nutrition",
+      "detail": "Nutrients and their functions, food groups, food classification, nutrition and health, digestion and the needs of different groups."
+    },
+    {
+      "topic": "Meal planning",
+      "detail": "Principles of meal planning, special diets and occasions, meal preparation and service, snacks, beverages, table setting and manners."
+    },
+    {
+      "topic": "Cookers and cooking",
+      "detail": "Types and care of cookers, reasons for cooking, cooking terms, cooking methods and heat transfer."
+    },
+    {
+      "topic": "Flours and uses",
+      "detail": "Types and uses of flour and raising agents such as air, yeast, palm wine and steam."
+    },
+    {
+      "topic": "Basic mixtures",
+      "detail": "Batters, pastries, cakes and breads, including their types, uses and common faults."
+    },
+    {
+      "topic": "Scientific methods in foods and nutrition",
+      "detail": "Accurate measurement, food nutrient tests and basic recipe development."
+    },
+    {
+      "topic": "The kitchen",
+      "detail": "Types and arrangement of kitchens and selection, use and care of kitchen tools and equipment."
+    },
+    {
+      "topic": "Kitchen safety and hygiene",
+      "detail": "Common kitchen accidents and prevention, first-aid kit contents, simple first aid, personal and food hygiene, contamination and food-borne illness."
+    },
+    {
+      "topic": "Food storage and preservation",
+      "detail": "Food spoilage, preservation principles and methods, convenience foods, additives and reheated dishes."
+    },
+    {
+      "topic": "Home gardening",
+      "detail": "Meaning and benefits of home gardening, tools, soil types, suitable crops, garden preparation and care."
+    },
+    {
+      "topic": "Fibres and fabrics",
+      "detail": "Textile terms, fibre types and properties, fabric construction and finishes, local fabrics, fabric design and care labels."
+    },
+    {
+      "topic": "Sewing equipment and garment construction",
+      "detail": "Sewing machines and tools, stitches, seams, garment features, decorative techniques, mending, measurements, pattern drafting and wardrobe planning."
+    },
+    {
+      "topic": "Laundry and care of clothes",
+      "detail": "Sorting, stain removal, washing, rinsing, drying, ironing, laundry agents, dry cleaning and care of clothing."
+    }
+  ],
   "Igbo": [],
   "Islamic Studies": [],
   "Literature in English": [],
