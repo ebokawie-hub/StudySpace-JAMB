@@ -30,3 +30,10 @@ https://ibass.jamb.gov.ng/e-syllabus
 
 ## CBT note
 The included question bank is a small sample for demonstrating the practice feature. It is not a complete official JAMB past-question bank.
+
+
+## Subject selection update
+- Choose Use of English plus three other UTME subjects from the My four subjects screen.
+- The app retains the original Mathematics, Physics, Chemistry and Use of English topic checklists and progress keys.
+- For other subjects, the app links to JAMB's official IBASS e-syllabus. Topic-by-topic local checklists and CBT questions for those subjects have not yet been added in this version.
+- Subject groups are browsing aids only. Confirm the required combination for your course and institution with the JAMB IBASS eligibility checker: https://eligibility.jamb.gov.ng/.
