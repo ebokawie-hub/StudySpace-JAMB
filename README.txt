@@ -1,7 +1,7 @@
 # StudySpace JAMB 2027 — Offline-first PWA
 
 ## What's included
-- Four subject syllabus checklist (topics and descriptive subtopic summaries)
+- In-app syllabus checklists for 14 subjects, including eight recently added subjects, History and Home Economics
 - Local progress persistence in browser storage
 - Study planner and personal notes
 - Small starter CBT practice bank
@@ -35,6 +35,6 @@ The included question bank is a small sample for demonstrating the practice feat
 ## Subject selection update
 - Choose Use of English plus three other UTME subjects from the My four subjects screen.
 - The app retains the original Mathematics, Physics, Chemistry and Use of English topic checklists and progress keys.
-- For other subjects, the app links to JAMB's official IBASS e-syllabus. Topic-by-topic local checklists and CBT questions for those subjects have not yet been added in this version.
+- Subjects without an in-app checklist are labelled as not yet added; the app does not send students to an external syllabus page. Topic-by-topic local checklists and CBT questions for those subjects are still pending.
 - Subject groups are browsing aids only. Confirm the required combination for your course and institution with the JAMB IBASS eligibility checker: https://eligibility.jamb.gov.ng/.
-Syllabus update: History (42 topics) and Home Economics (25 topics) are now included in the in-app checklist. Existing saved progress remains stored under the same local storage key.
+Syllabus update: History (42 topics) and Home Economics (25 topics) are included in the in-app checklist, alongside the eight newly added subject checklists. Existing saved progress remains stored under the same local storage key.
