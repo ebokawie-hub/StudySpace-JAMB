@@ -347,7 +347,192 @@
       "detail": "Vowels: monophthongs and diphthongs (also practise triphthong distinctions where covered in teaching materials); consonants and consonant clusters; rhymes and homophones; word stress in monosyllabic and polysyllabic words; intonation and emphatic stress in connected speech; correct accentuation and articulation."
     }
   ],
-  "Agriculture": [],
+  "Agriculture": [
+    {
+      "topic": "Meaning and Scope of Agriculture",
+      "detail": "Definition of agriculture in modern terms; branches of agriculture; subsistence and commercial agriculture, including their advantages, disadvantages and problems."
+    },
+    {
+      "topic": "Importance of Agriculture",
+      "detail": "Agriculture as a source of raw materials for agro-allied industries, employment and rural development; contributions to economic development in West Africa."
+    },
+    {
+      "topic": "Agricultural Ecology",
+      "detail": "Ecological zones of West Africa; agricultural products of each zone; biotic and abiotic environmental factors affecting crop and livestock production."
+    },
+    {
+      "topic": "Agricultural Genetics",
+      "detail": "Mendel’s first and second laws; cell division; locus, alleles, genotype and dominance; genetic crosses and probability ratios; crop improvement by introduction, selection, crossing and quarantine; animal improvement, breeding systems and artificial insemination."
+    },
+    {
+      "topic": "Farm Inputs",
+      "detail": "Types and uses of farm inputs, including planting materials and agrochemicals."
+    },
+    {
+      "topic": "History of Agricultural Development in West Africa",
+      "detail": "Agricultural systems such as shifting cultivation and bush fallowing; problems of agricultural development; national and international agricultural research institutes; Agricultural Development Projects (ADPs); national agricultural programmes."
+    },
+    {
+      "topic": "Roles of Government and NGOs in Agricultural Development",
+      "detail": "Fiscal policies, agricultural laws and reforms such as the Land Use Act; subsidies and credit facilities; infrastructure; contributions of non-governmental organizations."
+    },
+    {
+      "topic": "Rocks and Soil Formation",
+      "detail": "Rock formation; factors affecting rock weathering and soil formation; physical properties of soil, soil profile, components, texture and structure; soil acidity, alkalinity and chemical components."
+    },
+    {
+      "topic": "Soil Water and Soil Conservation",
+      "detail": "Importance, sources, movement, management and conservation of soil water; leaching, erosion, continuous cropping, burning and oxidation of organic matter; irrigation and drainage methods."
+    },
+    {
+      "topic": "Soil Fertility",
+      "detail": "Macro- and micro-nutrients and their roles; carbon, water and nitrogen cycles; soil flora and fauna; maintenance of soil fertility; organic and inorganic fertilizers; nutrient-deficiency symptoms and remedies."
+    },
+    {
+      "topic": "Land Preparation and Soil Tillage",
+      "detail": "Principles and practices of land preparation and tillage; factors affecting the choice of tillage methods, including zero and minimum tillage."
+    },
+    {
+      "topic": "Plant Forms and Functions",
+      "detail": "Parts and functions of monocotyledonous and dicotyledonous crop plants; anatomy and morphology of storage organs of common crop plants."
+    },
+    {
+      "topic": "Growth, Development and Reproduction",
+      "detail": "Gametogenesis, pollination, fertilization, and embryo formation and development."
+    },
+    {
+      "topic": "Plant Propagation Methods",
+      "detail": "Sexual propagation using seeds; seed viability tests, seed rate and germination; vegetative propagation by cutting, budding, grafting and layering; nursery types, site selection, management and transplanting."
+    },
+    {
+      "topic": "Cropping Systems, Planting Patterns and Plant Densities",
+      "detail": "Monocropping, mixed, multiple, inter-, relay-, strip- and rotational cropping; broadcasting, row spacing and drilling; single, double and multiple stands; effects of plant density and density calculations."
+    },
+    {
+      "topic": "Crop Husbandry",
+      "detail": "Common and scientific names, morphology, storage organs, propagation, husbandry, harvesting, processing, storage, pests, diseases and economic importance of cereals, legumes, tubers, vegetables and spices, fruits, beverages, oil crops, latex crops, fibre crops and sugar crops."
+    },
+    {
+      "topic": "Pasture and Forage Crops",
+      "detail": "Morphology, propagation and husbandry of pasture grasses and legumes; establishment, maintenance, conservation and uses of pastures; natural grasslands in West Africa; range management."
+    },
+    {
+      "topic": "Floriculture",
+      "detail": "Identification, establishment, maintenance and uses of ornamental trees, shrubs and flowers."
+    },
+    {
+      "topic": "Weeds",
+      "detail": "Morphology, reproduction, dispersal and effects of weeds; control by weeding, mulching, cover cropping, tillage, herbicides and trap cropping."
+    },
+    {
+      "topic": "Crop Diseases",
+      "detail": "Disease-causing organisms in the field and in storage; fungal, bacterial, nematode and viral diseases, symptoms, damage, transmission and control; side effects of control methods."
+    },
+    {
+      "topic": "Crop Pests",
+      "detail": "Field and storage pests, their types and economic importance; prevention and control; life cycles of biting, boring and sucking insects; common pesticides and their side effects."
+    },
+    {
+      "topic": "Forest Management (Silviculture)",
+      "detail": "Importance of forests as sources of wood, pulp, fibre and other products; regulation, exploitation, regeneration, afforestation, agroforestry and management systems such as taungya, alley and ley."
+    },
+    {
+      "topic": "Forms and Classification of Major Farm Animals in West Africa",
+      "detail": "Species, breeds, distribution and uses of farm animals; external features of cattle, sheep, goats, pigs, rabbits and poultry."
+    },
+    {
+      "topic": "General Terminologies in Animal Production",
+      "detail": "Common animal-husbandry terms, including calving, kidding, castration, tupping, veal and mutton."
+    },
+    {
+      "topic": "Anatomy and Physiology of Farm Animals",
+      "detail": "Functions of tissues and organs; digestive systems of ruminants and non-ruminants; reproductive, respiratory, urinary and nervous systems; effects of environmental changes and climate on animal physiology."
+    },
+    {
+      "topic": "Reproduction in Farm Animals",
+      "detail": "Gametogenesis, oestrus cycle, signs and periods of heat, secondary sexual characteristics, gestation, parturition and reproductive hormones; development and nourishment of young; mammary glands and lactation; egg formation, incubation and hatching in poultry."
+    },
+    {
+      "topic": "Animal Nutrition",
+      "detail": "Feed nutrients and functions; feeds and feeding; simple ration formulation and balanced rations; pasture and forage crops; hay and silage; maintenance and production rations; nutrient deficiencies and their correction."
+    },
+    {
+      "topic": "Livestock Management",
+      "detail": "Housing, feeding, sanitation and veterinary care of ruminants, pigs, rabbits and poultry under intensive, semi-intensive and extensive systems from birth to slaughter."
+    },
+    {
+      "topic": "Animal Health",
+      "detail": "Animal diseases, predisposing environmental factors, causal organisms, symptoms, transmission, effects, prevention and treatment; livestock parasites, their life cycles and control by dipping, spraying, deworming and sanitation."
+    },
+    {
+      "topic": "Fisheries and Wildlife",
+      "detail": "Fish culture systems and common fish; extensive, semi-intensive and intensive systems; pond establishment and management; harvesting, processing and preservation; fishery regulations; wildlife habitat conservation, feeding, domestication, harvesting and regulations."
+    },
+    {
+      "topic": "Bee-keeping (Apiculture)",
+      "detail": "Meaning and economic importance of apiculture; indigenous and exotic bees; traditional and modern bee-keeping; equipment and safety measures."
+    },
+    {
+      "topic": "Factors of Agricultural Production",
+      "detail": "Land and land ownership in West Africa; labour types, sources and effects; capital and its sources; management as a factor of production."
+    },
+    {
+      "topic": "Basic Economic Principles",
+      "detail": "Demand and supply in agriculture; production functions and input-output relationships; stages of production and diminishing returns; scale of preference and choice; characteristics of agricultural production and price elasticity."
+    },
+    {
+      "topic": "Labour Management",
+      "detail": "Labour relations and supervision; permanent and other types of labour; national labour laws and regulations; labour efficiency."
+    },
+    {
+      "topic": "Farm Management",
+      "detail": "Qualities, functions and problems of a farm manager; farm records and record-keeping; livestock records and profit-and-loss accounts; stock evaluation, gross and net profits, appreciation, depreciation and salvage value."
+    },
+    {
+      "topic": "Agricultural Insurance and Financing",
+      "detail": "Meaning, importance, types and problems of agricultural insurance; agricultural financing, its importance, types and problems."
+    },
+    {
+      "topic": "Marketing of Agricultural Produce",
+      "detail": "Importance of marketing; marketing channels, agents and their functions; characteristics of agricultural products that affect marketing."
+    },
+    {
+      "topic": "Agricultural Extension",
+      "detail": "Meaning and importance; roles of ADPs, universities, research institutes and farmers’ organizations; extension methods such as demonstration plots, visual aids and mass media; problems and possible solutions in West Africa."
+    },
+    {
+      "topic": "Farm Surveying and Farmstead Planning",
+      "detail": "Meaning and importance of farm surveying; surveying equipment, uses and care; survey methods; principles and factors in farmstead planning."
+    },
+    {
+      "topic": "Simple Farm Tools",
+      "detail": "Identification, uses, maintenance, advantages and disadvantages of simple farm tools."
+    },
+    {
+      "topic": "Farm Machinery and Implements",
+      "detail": "Types of machinery and implements, their uses, classification, operation and maintenance."
+    },
+    {
+      "topic": "Mechanization and Sources of Farm Power",
+      "detail": "Animal and machine power; advantages and disadvantages of mechanization; problems and prospects of mechanized agriculture in West Africa."
+    },
+    {
+      "topic": "Processing and Storage",
+      "detail": "Traditional and modern processing methods for agricultural produce, including gari, rice and groundnut; storage methods and their application to different crops."
+    },
+    {
+      "topic": "Introduction to Biotechnology",
+      "detail": "Basic biotechnology terms and applications, including tissue and anther culture, in-vitro fertilization and genetic engineering."
+    },
+    {
+      "topic": "Application of ICT in Agriculture",
+      "detail": "Computer features and uses in agriculture, including disease and weather forecasting, ration formulation, databases and simulation; communication devices such as mobile phones and the internet."
+    },
+    {
+      "topic": "Introduction to Agricultural Research and Statistics",
+      "detail": "Planning agricultural experiments; hypothesis, treatment and control; interpretation of results, measures of central tendency and experimental errors."
+    }
+  ],
   "Arabic": [
     {
       "topic": "Comprehension",
@@ -388,7 +573,104 @@
       "detail": "Analyse and appreciate artworks; meaning and functions of art in society; art criticism, exhibition and opportunities in art entrepreneurship."
     }
   ],
-  "Biology": [],
+  "Biology": [
+    {
+      "topic": "Living Organisms",
+      "detail": "Characteristics of living things; cell structure and functions in plant and animal cells; levels of organization from cell and tissue to organ, system and organism."
+    },
+    {
+      "topic": "Evolution Among Organisms",
+      "detail": "Characteristics, structural complexity and life histories of Monera, Protista, fungi, plants and animals; plant groups from thallophytes to seed plants; invertebrate and vertebrate groups and their economic and environmental importance."
+    },
+    {
+      "topic": "Structural, Functional and Behavioural Adaptations of Organisms",
+      "detail": "Adaptive colouration; behaviour in social animals; basking, territorial behaviour, hibernation and aestivation; structural adaptations for feeding, protection, securing mates, temperature regulation and water conservation."
+    },
+    {
+      "topic": "Internal Structure of a Flowering Plant and a Mammal",
+      "detail": "Internal structure of roots, stems and leaves; supporting tissues and their distribution; arrangement and positions of mammalian digestive, reproductive and excretory organs."
+    },
+    {
+      "topic": "Nutrition",
+      "detail": "Autotrophic and heterotrophic nutrition; photosynthesis and chemosynthesis; holozoic, parasitic, saprophytic and carnivorous feeding; mineral requirements; classes of food, food tests, balanced diet, mammalian teeth, alimentary canal and digestion."
+    },
+    {
+      "topic": "Transport",
+      "detail": "Need for transport in plants and animals; materials and channels of transport; mammalian circulatory system; blood and lymph; plant vascular tissues, xylem and phloem; diffusion, osmosis, plasmolysis and turgidity."
+    },
+    {
+      "topic": "Respiration",
+      "detail": "Significance and processes of respiration; glycolysis and Krebs cycle in relation to ATP; gaseous exchange and heat production; respiratory organs and surfaces in plants and animals; stomatal movement and aerobic and anaerobic respiration."
+    },
+    {
+      "topic": "Excretion",
+      "detail": "Excretory structures such as contractile vacuoles, flame cells, nephridia, Malpighian tubules, kidneys, stomata and lenticels; excretion by kidneys, lungs and skin; excretory products of plants."
+    },
+    {
+      "topic": "Support and Movement",
+      "detail": "Tropic, tactic, nastic and sleep movements in plants; supporting tissues; plant responses to stimuli; animal supporting tissues, exoskeleton and endoskeleton; joints and functions of the skeleton."
+    },
+    {
+      "topic": "Reproduction",
+      "detail": "Asexual reproduction by fission, budding and vegetative propagation; sexual reproduction in flowering plants, floral parts, pollination and fertilization; mammalian reproductive organs, fertilization and development."
+    },
+    {
+      "topic": "Growth",
+      "detail": "Meaning of growth; seed germination and the conditions necessary for germination; epigeal and hypogeal germination."
+    },
+    {
+      "topic": "Co-ordination and Control",
+      "detail": "Central and peripheral nervous systems, transmission of impulses and reflex action; sense organs; animal endocrine glands and plant hormones; homeostasis, temperature regulation and salt and water balance."
+    },
+    {
+      "topic": "Factors Affecting the Distribution of Organisms",
+      "detail": "Abiotic factors such as temperature, rainfall, humidity and wind; biotic factors and the effects of plant, animal and human activities on distribution."
+    },
+    {
+      "topic": "Symbiotic Interactions of Plants and Animals",
+      "detail": "Parasitism, saprophytism, commensalism, mutualism, amensalism, competition, predation and cooperation; energy flow, food chains, food webs, trophic levels and carbon, water and nitrogen cycles."
+    },
+    {
+      "topic": "Natural Habitats",
+      "detail": "Aquatic habitats such as ponds, streams, lakes, seashores and mangrove swamps; terrestrial and arboreal habitats; organisms, adaptations and habitat relationships."
+    },
+    {
+      "topic": "Local (Nigerian) Biomes",
+      "detail": "Tropical rainforest; southern and northern Guinea savanna; Sudan savanna; desert; montane forests and grasslands of the Obudu, Jos and Mambilla Plateaus."
+    },
+    {
+      "topic": "The Ecology of Populations",
+      "detail": "Population density and overcrowding; adaptation and competition; factors affecting population size; intra- and inter-specific competition; ecological succession, including primary and secondary succession."
+    },
+    {
+      "topic": "Soil",
+      "detail": "Characteristics of sandy, loamy and clayey soils; soil structure, porosity, capillarity and humus; inorganic and organic components, organisms, air and water; soil fertility, its loss, renewal and maintenance."
+    },
+    {
+      "topic": "Humans and Environment",
+      "detail": "Common, endemic and transmissible diseases; drug abuse and prevention; pollution, sanitation and sewage; conservation of renewable and non-renewable resources; game reserves and national parks."
+    },
+    {
+      "topic": "Variation in Population",
+      "detail": "Morphological and physiological variation; continuous and discontinuous variation; size, colour, fingerprints, tongue rolling, PTC tasting and blood groups; applications in crime detection, blood transfusion and paternity determination."
+    },
+    {
+      "topic": "Heredity",
+      "detail": "Heritable and non-heritable characters; chromosomes and DNA; transmission of hereditary characters; genetic probability and sex determination; applications in agriculture and medicine; sex-linked characters."
+    },
+    {
+      "topic": "Biotechnology",
+      "detail": "Applications of biotechnology in agriculture, medicine, pharmaceuticals and the food industry; genetic modification and gene-related applications as described in the syllabus."
+    },
+    {
+      "topic": "Theories of Evolution",
+      "detail": "Organic evolution; Lamarck’s theory, Darwin’s theory and organic theory; adaptive changes over time and contributions to evolutionary explanations."
+    },
+    {
+      "topic": "Evidence of Evolution",
+      "detail": "Fossil records; comparative anatomy, physiology and embryology; evolutionary trends in plants and animals; genetic studies and mutation as evidence in modern evolutionary theories."
+    }
+  ],
   "Christian Religious Studies": [
     {
       "topic": "Section A: Themes from Creation to the Division of the Kingdom",
@@ -511,8 +793,118 @@
       "detail": "Ethical issues, computer security, cyber risks and protection; career prospects and higher studies in computing."
     }
   ],
-  "Economics": [],
-  "French": [],
+  "Economics": [
+    {
+      "topic": "Economics as a Science",
+      "detail": "Basic concepts: wants, scarcity, choice, scale of preference, opportunity cost, rationality, production, distribution and consumption; economic problems of what, how and for whom to produce; efficiency and production possibility frontier."
+    },
+    {
+      "topic": "Economic Systems",
+      "detail": "Free enterprise, centrally planned and mixed economies; solutions to economic problems under different systems; contemporary issues and reforms such as deregulation, banking consolidation and cash policy."
+    },
+    {
+      "topic": "Methods and Tools of Economic Analysis",
+      "detail": "Inductive and deductive methods; positive and normative reasoning; tables, charts and graphs; mean, median, mode, variance, standard deviation and range; uses, merits and limitations of the tools."
+    },
+    {
+      "topic": "The Theory of Demand",
+      "detail": "Meaning and determinants of demand; demand schedules and curves; change in quantity demanded versus change in demand; composite, derived, competitive and joint demand; price, income and cross elasticity and their applications."
+    },
+    {
+      "topic": "The Theory of Consumer Behaviour",
+      "detail": "Utility concepts; indifference curves and budget lines; diminishing marginal utility and the law of demand; consumer equilibrium; income and substitution effects; consumer surplus."
+    },
+    {
+      "topic": "The Theory of Supply",
+      "detail": "Meaning and determinants of supply; supply schedules and curves; change in quantity supplied versus change in supply; joint, complementary, competitive and composite supply; elasticity of supply."
+    },
+    {
+      "topic": "The Theory of Price Determination",
+      "detail": "Market and price concepts; functions of the price system; equilibrium price and quantity in product and factor markets; price legislation; effects of changes in demand and supply; simple linear demand and supply equations."
+    },
+    {
+      "topic": "The Theory of Production",
+      "detail": "Meaning and types of production; total, average and marginal product; law of variable proportions; division of labour and specialization; economies of scale; production functions and returns to scale; producer equilibrium and productivity."
+    },
+    {
+      "topic": "Theory of Costs and Revenue",
+      "detail": "Fixed, variable, total, average and marginal costs; total, average and marginal revenue; accountants’ and economists’ concepts of cost; short-run and long-run costs; marginal cost and the firm’s supply curve."
+    },
+    {
+      "topic": "Market Structures",
+      "detail": "Perfect competition, monopoly, monopolistic competition and oligopoly; assumptions, characteristics and equilibrium in the short and long run; price and output decisions."
+    },
+    {
+      "topic": "National Income",
+      "detail": "Concepts and measurement of national income; methods of measurement; uses and limitations of national income statistics; circular flow of income and related concepts."
+    },
+    {
+      "topic": "Money and Inflation",
+      "detail": "Meaning, types and functions of money; demand and supply of money; inflation and deflation, their causes, measurement, effects and control; consumer price index."
+    },
+    {
+      "topic": "Financial Institutions",
+      "detail": "Traditional and formal financial institutions; central, mortgage and merchant banks, insurance companies and building societies; money and capital markets; regulation; deposit money banks and money creation; monetary policy and sector challenges."
+    },
+    {
+      "topic": "Public Finance",
+      "detail": "Meaning and objectives; fiscal policy; government revenue and taxation; principles and incidence of taxation; public expenditure; budgets, public debts, revenue allocation and resource control in Nigeria."
+    },
+    {
+      "topic": "Economic Growth and Development",
+      "detail": "Meaning and scope; indicators and factors of growth and development; development problems in Nigeria; development planning."
+    },
+    {
+      "topic": "Agriculture in Nigeria",
+      "detail": "Types and features of agriculture; its role in economic development; problems; agricultural policies and their effects; instability in agricultural incomes, including causes, effects and solutions."
+    },
+    {
+      "topic": "Industry and Industrialization",
+      "detail": "Location and localization of industry; industrialization strategies and economic development in Nigeria; funding and management of business organizations; factors determining firm size."
+    },
+    {
+      "topic": "Natural Resources and the Nigerian Economy",
+      "detail": "Development of petroleum, gold, diamond, timber and other resources; oil and non-oil sector contributions; linkages; upstream and downstream oil activities; roles of NNPC and OPEC; challenges of exploitation."
+    },
+    {
+      "topic": "Business Organizations",
+      "detail": "Private enterprises such as sole proprietorships, partnerships, limited liability companies and cooperatives; problems of private and public enterprises; funding and management; firm size; privatization and commercialization."
+    },
+    {
+      "topic": "Population",
+      "detail": "Population meaning and theories; census, importance and problems; over-, under- and optimum population; structure and distribution; population policy and economic development."
+    },
+    {
+      "topic": "International Trade",
+      "detail": "Meaning and basis of trade; absolute and comparative costs; balance of trade and balance of payments; problems and corrective measures; Nigeria’s foreign trade; exchange rates, types and determination."
+    },
+    {
+      "topic": "International Economic Organizations",
+      "detail": "Roles and relevance to Nigeria of ECOWAS, AU, EU, ECA, IMF, EEC, OECD, World Bank, IBRD, WTO, ADB and UNCTAD."
+    },
+    {
+      "topic": "Factors of Production and their Theories",
+      "detail": "Types, features and rewards of factors; determination of wages, interest and profits; marginal productivity and liquidity preference theories; factor mobility and efficiency; unemployment and solutions."
+    }
+  ],
+  "French": [
+    {
+      "topic": "Written Comprehension in French",
+      "detail": "Comprehension of two texts on general and current-interest topics; deducing answers about content, intention and style; applying reasoning skills."
+    },
+    {
+      "topic": "Principles Governing the Structure and Use of Written French",
+      "detail": "Nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions and articles; vocabulary in contemporary contexts, synonyms, opposites and faux amis; word order in affirmative, interrogative and imperative sentences and passive voice; conjugation, negation, agreement, pluralisation and derivation; proverbs, idioms, conventional expressions, figures of speech and speech acts."
+    },
+    {
+      "topic": "Workings of French Sounds",
+      "detail": "Sound discrimination and letter-sound correspondence; syllabification, liaison, sense groups in reading and identification of similar sounds; pronunciation, pauses and intonation."
+    },
+    {
+      "topic": "Culture and Civilization",
+      "detail": "Educational systems, socio-economic life, political organization and cultural life of Francophone Africa and France; greetings, dressing, food, leisure, marriage, festivals, art and professions, with comparison to Nigeria where possible."
+    }
+  ],
   "Geography": [],
   "Government": [],
   "Hausa": [
