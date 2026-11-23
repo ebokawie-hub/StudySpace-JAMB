@@ -348,17 +348,187 @@
     }
   ],
   "Agriculture": [],
-  "Arabic": [],
-  "Art (Fine Art)": [],
+  "Arabic": [
+    {
+      "topic": "Comprehension",
+      "detail": "Read and understand standard Arabic passages; identify main themes, lessons, suitable titles and meanings of words."
+    },
+    {
+      "topic": "Translation",
+      "detail": "Translate words, phrases and simple texts between English and Arabic; interpret idioms and transfer meaning accurately."
+    },
+    {
+      "topic": "Grammar",
+      "detail": "Demonstrative and relative pronouns; gender; nouns; dual and plural forms; construct phrases; pronouns; adjectives and conjunctions; prepositions; verb types and tenses; modifiers; derivatives; conditional sentences; numerals; active/passive voice; subject and predicate; accusative nouns."
+    },
+    {
+      "topic": "Composition",
+      "detail": "Write clearly in Arabic on familiar subjects such as education, culture, health, politics, economy, sports and current affairs; use appropriate vocabulary and idioms."
+    },
+    {
+      "topic": "Arabic Literature",
+      "detail": "Study prescribed Arabic literary texts, their themes, contexts, authors and language; appreciate prose and poetry."
+    }
+  ],
+  "Art (Fine Art)": [
+    {
+      "topic": "Classification, Elements and Principles of Art",
+      "detail": "Classification and forms of art; elements such as line, shape, form, colour, texture and space; principles of design; common art terms."
+    },
+    {
+      "topic": "Historical Dimensions of Art",
+      "detail": "Historical development of art; traditional African art; traditional Nigerian art and crafts; origins, locations, styles, functions and contemporary developments."
+    },
+    {
+      "topic": "Artistic Skills, Techniques, Tools and Materials",
+      "detail": "Drawing, painting, design, modelling, carving, printing and other artistic processes; appropriate tools, materials, techniques and safety."
+    },
+    {
+      "topic": "Art Appreciation, Meaning, Functions and Entrepreneurship",
+      "detail": "Analyse and appreciate artworks; meaning and functions of art in society; art criticism, exhibition and opportunities in art entrepreneurship."
+    }
+  ],
   "Biology": [],
-  "Christian Religious Studies": [],
-  "Commerce": [],
-  "Computer Studies": [],
+  "Christian Religious Studies": [
+    {
+      "topic": "Section A: Themes from Creation to the Division of the Kingdom",
+      "detail": "The sovereignty of God; covenant; leadership; divine providence, guidance and protection; parental responsibility; obedience and disobedience; David as a man after God’s heart; decision-making."
+    },
+    {
+      "topic": "Section B: Themes from the Division of the Kingdom to the Return from Exile",
+      "detail": "Greed and its effects; supremacy of God; religious reforms in Judah; concern for Judah; faith, courage and protection; Jonah and Nineveh; social justice, true religion and divine love; holiness and divine call; punishment and hope."
+    },
+    {
+      "topic": "Section C: Themes from the Four Gospels and Acts of the Apostles",
+      "detail": "Birth and early life, baptism and temptation of Jesus; discipleship; miracles and parables; Sermon on the Mount; mission of disciples; confession and transfiguration; final events, death and resurrection; teachings of Jesus; early Church, Holy Spirit, opposition and mission to Gentiles."
+    },
+    {
+      "topic": "Section D: Themes from Selected Epistles",
+      "detail": "Justification by faith; law and grace; new life in Christ; joint heirs; humility and forgiveness; spiritual gifts; Christian giving; civic responsibility; dignity of labour; second coming; impartiality; prayer; community life; corruption and sexual immorality."
+    }
+  ],
+  "Commerce": [
+    {
+      "topic": "Commerce",
+      "detail": "Meaning, scope, functions, importance and branches of commerce; occupations and commercial activities."
+    },
+    {
+      "topic": "Occupation",
+      "detail": "Types of occupation; factors affecting choice of occupation; employment, self-employment and career opportunities."
+    },
+    {
+      "topic": "Production",
+      "detail": "Meaning, types and factors of production; division of labour, specialisation, scale of production and productivity."
+    },
+    {
+      "topic": "Trade",
+      "detail": "Home and foreign trade; wholesale and retail trade; functions, procedures and documents used in trade."
+    },
+    {
+      "topic": "Purchase and Sale of Goods",
+      "detail": "Channels of distribution; terms of sale; trade discounts, cash discounts, invoices, receipts and other sales documents."
+    },
+    {
+      "topic": "Aids-to-Trade",
+      "detail": "Banking, insurance, transportation, communication, warehousing, advertising and tourism."
+    },
+    {
+      "topic": "Business Units",
+      "detail": "Sole proprietorship, partnership, limited liability companies, cooperatives, public enterprises and other forms of business organisation."
+    },
+    {
+      "topic": "Financing Business",
+      "detail": "Sources of business finance; short- and long-term capital; loans, shares, debentures, retained earnings and financial institutions."
+    },
+    {
+      "topic": "Trade Associations",
+      "detail": "Chambers of commerce, manufacturers’ associations, trade groups and their objectives and functions."
+    },
+    {
+      "topic": "Money",
+      "detail": "Meaning, functions, characteristics, forms and evolution of money; demand, supply and value of money."
+    },
+    {
+      "topic": "Stock Exchange",
+      "detail": "Meaning, functions, instruments, participants and operations of the stock exchange."
+    },
+    {
+      "topic": "Elements of Business Management",
+      "detail": "Planning, organising, staffing, directing, coordinating and controlling; business objectives and management structures."
+    },
+    {
+      "topic": "Elements of Marketing",
+      "detail": "Marketing concepts, product, price, promotion, place, market research and consumer behaviour."
+    },
+    {
+      "topic": "Legal Aspects of Business",
+      "detail": "Contracts, agency, sale of goods, consumer protection, business regulation and relevant legal responsibilities."
+    },
+    {
+      "topic": "Commodity Exchange",
+      "detail": "Meaning, functions, participants and operations of commodity exchanges; trading in agricultural and other commodities."
+    },
+    {
+      "topic": "Business Environment and Social Responsibility",
+      "detail": "Internal and external business environment; government policies, competition, ethics, social responsibility and environmental considerations."
+    }
+  ],
+  "Computer Studies": [
+    {
+      "topic": "Evolution of Computing",
+      "detail": "History and generations of computers; classification and development of computing devices."
+    },
+    {
+      "topic": "Fundamentals of Computing",
+      "detail": "Computer systems and operations; hardware and software; data and information; input, processing, output and storage; basic computer concepts."
+    },
+    {
+      "topic": "Computer Application Packages",
+      "detail": "Word processing, spreadsheets, databases, graphics, presentation and web-design packages and their practical uses."
+    },
+    {
+      "topic": "Managing Computer Files",
+      "detail": "Concepts of files and folders; file organisation, naming, storage, retrieval, copying, moving and deletion."
+    },
+    {
+      "topic": "Computer Maintenance and Safety Measures",
+      "detail": "Booting and shutting down; computer maintenance; troubleshooting basics; computer-room management and safety."
+    },
+    {
+      "topic": "Information and Communication Technology (ICT)",
+      "detail": "Communication systems; applications of ICT; internet, electronic mail, networking, World Wide Web, cables and connectors."
+    },
+    {
+      "topic": "Developing Problem-Solving Skills",
+      "detail": "Programming languages; high-level languages; algorithms and flowcharts; program structures and development; system development life cycle."
+    },
+    {
+      "topic": "Artificial Intelligence and Robotics",
+      "detail": "Meaning and branches of AI; applications of AI; fundamentals and applications of robotics."
+    },
+    {
+      "topic": "Computer Ethics and Human Issues",
+      "detail": "Ethical issues, computer security, cyber risks and protection; career prospects and higher studies in computing."
+    }
+  ],
   "Economics": [],
   "French": [],
   "Geography": [],
   "Government": [],
-  "Hausa": [],
+  "Hausa": [
+    {
+      "topic": "Harshe (Language)",
+      "detail": "Hausa language skills: reading and writing; sounds and pronunciation; vocabulary; word formation; grammar, morphology and syntax; translation between English and Hausa."
+    },
+    {
+      "topic": "Al’adu (Culture)",
+      "detail": "Hausa peoples and communities; customs, traditions, beliefs, social institutions, occupations, festivals and cultural practices."
+    },
+    {
+      "topic": "Adabi (Literature)",
+      "detail": "Oral and written Hausa literature, including prose, poetry and drama; literary forms, themes, styles and appreciation of prescribed texts."
+    }
+  ],
   "History": [
     {
       "topic": "Land and peoples of the Nigeria area",
@@ -636,6 +806,92 @@
   "Literature in English": [],
   "Music": [],
   "Physical and Health Education": [],
-  "Principles of Accounts": [],
-  "Yoruba": []
+  "Principles of Accounts": [
+    {
+      "topic": "Nature and Significance of Bookkeeping",
+      "detail": "Meaning, objectives, users and importance of bookkeeping and accounting; accounting records and the accounting process."
+    },
+    {
+      "topic": "Principles of Double Entry",
+      "detail": "Accounting equation; debit and credit rules; source documents; books of original entry; ledger accounts and trial balance."
+    },
+    {
+      "topic": "Ethics, Professional and Regulatory Bodies",
+      "detail": "Ethical principles, professional conduct, accounting bodies, standards and regulatory institutions."
+    },
+    {
+      "topic": "Cash Book",
+      "detail": "Single-, double- and three-column cash books; petty cash book and imprest system."
+    },
+    {
+      "topic": "Bank Transactions and Reconciliation",
+      "detail": "Bank statements, lodgements, unpresented cheques, errors and preparation of bank reconciliation statements."
+    },
+    {
+      "topic": "Final Accounts of a Sole Trader",
+      "detail": "Trading, profit and loss accounts; statement of financial position; adjustments and interpretation of financial statements."
+    },
+    {
+      "topic": "Stock Valuation",
+      "detail": "Methods of valuing inventory, including FIFO and weighted average; effect of stock valuation on profit."
+    },
+    {
+      "topic": "Control Accounts",
+      "detail": "Sales ledger and purchases ledger control accounts; preparation and reconciliation."
+    },
+    {
+      "topic": "Incomplete Records and Single Entry",
+      "detail": "Determination of profit or loss and preparation of statements from incomplete accounting records."
+    },
+    {
+      "topic": "Manufacturing Accounts",
+      "detail": "Cost classification; prime cost, factory overheads, work-in-progress and cost of production."
+    },
+    {
+      "topic": "Accounts of Not-for-Profit-Making Organisations",
+      "detail": "Receipts and payments accounts; income and expenditure accounts; subscriptions and statement of financial position."
+    },
+    {
+      "topic": "Departmental Accounts",
+      "detail": "Allocation and apportionment of expenses; departmental trading and profit and loss accounts."
+    },
+    {
+      "topic": "Branch Accounts",
+      "detail": "Accounting for dependent and independent branches; branch transactions and branch profit or loss."
+    },
+    {
+      "topic": "Joint Venture Accounts",
+      "detail": "Meaning, features, objectives and preparation of accounts for joint ventures."
+    },
+    {
+      "topic": "Partnership Accounts",
+      "detail": "Formation, profit sharing, appropriation, admission, retirement, dissolution and goodwill."
+    },
+    {
+      "topic": "Introduction to Company Accounts",
+      "detail": "Share capital, issue of shares, debentures, reserves and company financial statements."
+    },
+    {
+      "topic": "Public Sector Accounting",
+      "detail": "Government revenue and expenditure; public funds; budgets; treasury and public-sector accounting records."
+    },
+    {
+      "topic": "Information Technology in Accounting",
+      "detail": "Use of computers, spreadsheets and accounting software in recording, processing and presenting accounting information."
+    }
+  ],
+  "Yoruba": [
+    {
+      "topic": "Èdè (Language)",
+      "detail": "Yoruba sounds and tone marks; vocabulary; word classes; morphology, syntax and sentence structure; comprehension, translation and correct language usage."
+    },
+    {
+      "topic": "Lítíréṣọ̀ (Literature)",
+      "detail": "Oral and written Yoruba literature; prose, poetry and drama; literary devices, themes, characters and prescribed texts."
+    },
+    {
+      "topic": "Àṣà (Culture)",
+      "detail": "Yoruba beliefs, customs, traditions, social institutions, festivals, occupations, marriage, naming, chieftaincy and other cultural practices."
+    }
+  ]
 }
