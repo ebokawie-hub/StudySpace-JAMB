@@ -1595,8 +1595,142 @@
       "detail": "Aims of Islamic education; Qur’an and Hadith on education; importance of seeking knowledge; intellectual activity and written history in Arabic; Sankore University; contributions of Ahmad Baba, al-Maghili, Uthman Dan Fodio, Sultan Muhammad Bello and Ibn Battuta; House of Wisdom, al-Azhar and Nizamiyyah; contributions of Ibn Sina, al-Ghazali, Ibn Rushd, ar-Razi and Ibn Khaldun."
     }
   ],
-  "Literature in English": [],
-  "Music": [],
+  "Literature in English": [
+    {
+      "topic": "Drama",
+      "detail": "Types of drama: tragedy, comedy, tragicomedy, melodrama, farce and opera. Dramatic techniques include characterisation, dialogue, flashback, mime, costume, music and dance, scenery, acts and scenes, soliloquy, aside and figures of speech. Study prescribed plays through theme, plot, socio-political context and setting."
+    },
+    {
+      "topic": "Prose",
+      "detail": "Forms and types of prose; narrative techniques, point of view, characterisation, setting, plot, theme, style, language and structure. Study prescribed prose texts and relate their themes and contexts to society."
+    },
+    {
+      "topic": "Poetry",
+      "detail": "Types and forms of poetry; poetic devices and techniques; imagery, figures of speech, tone, mood, rhythm, metre, sound patterns, diction and structure. Study prescribed poems, their themes, settings, styles and socio-political contexts."
+    },
+    {
+      "topic": "General Literary Principles and Terms",
+      "detail": "Meaning and functions of literature; genres and their features; literary conventions, techniques and terminology used in drama, prose and poetry. Recognise and explain how language and literary devices create meaning."
+    },
+    {
+      "topic": "Literary Appreciation",
+      "detail": "Analyse unseen extracts from drama, prose and poetry; identify literary devices; interpret meaning; explain effects of language, tone and structure; and relate the extract to real-life experiences."
+    }
+  ],
+  "Music": [
+    {
+      "topic": "The Staff and Clefs",
+      "detail": "Great staff; ledger lines and spaces; open or vocal score; C clef, alto or viola clef, and tenor clef."
+    },
+    {
+      "topic": "Music Notes, Rests and Values",
+      "detail": "Recognise musical notes and rests and calculate their relative durations and values."
+    },
+    {
+      "topic": "Time and Time Signatures",
+      "detail": "Simple and compound time signatures; grouping notes correctly; barring unbarred musical passages; interpreting rhythmic patterns."
+    },
+    {
+      "topic": "Key Signatures and Scales",
+      "detail": "Technical names of scale degrees; diatonic major and natural, harmonic and melodic minor scales; chromatic scales; determining keys with or without signatures of up to two sharps or two flats."
+    },
+    {
+      "topic": "Keyboard, Enharmonic Equivalents and Accidentals",
+      "detail": "Keyboard layout; names and relationships of white and black keys; enharmonic equivalents; sharps, flats and naturals as accidentals."
+    },
+    {
+      "topic": "Musical Intervals",
+      "detail": "Recognise and invert diatonic and chromatic intervals, including perfect, major, minor, diminished and augmented intervals; distinguish consonant and dissonant intervals."
+    },
+    {
+      "topic": "Musical Terms, Signs and Abbreviations",
+      "detail": "Definitions and practical interpretation of common musical terms, signs and abbreviations used in scores."
+    },
+    {
+      "topic": "Notation, Transcription and Transposition",
+      "detail": "Transcribe music from staff notation to tonic sol-fa and vice versa; transpose passages using treble and bass staves within the stated key-signature limits."
+    },
+    {
+      "topic": "Triads and Their Inversions",
+      "detail": "Identify and compare major, minor, diminished and augmented triads and their inversions in major and minor keys; understand primary and secondary triads and Roman-numeral chord indications."
+    },
+    {
+      "topic": "Chord Progressions and Dominant Seventh",
+      "detail": "Basic four-part SATB chord progressions in major keys within two sharps or flats; dominant seventh chord in root position."
+    },
+    {
+      "topic": "Kinds of Harmonic Motion",
+      "detail": "Identify parallel, similar, contrary and oblique motion in musical parts."
+    },
+    {
+      "topic": "Cadences",
+      "detail": "Recognise perfect or full-close, imperfect or half-close, plagal or Amen, and interrupted, deceptive or surprise cadences."
+    },
+    {
+      "topic": "Non-harmonic and Non-chord Tones",
+      "detail": "Identify and apply neighbouring or auxiliary tones and passing tones; relate non-chord notes to the harmony around them."
+    },
+    {
+      "topic": "Modulation",
+      "detail": "Simple diatonic modulation from a major key to closely related dominant or subdominant keys, using a single melodic line and the stated key-signature limits."
+    },
+    {
+      "topic": "Elementary Musical Composition",
+      "detail": "Set words to a written melody and recognise suitable musical answers to given phrases, including compatible, balanced or contrasting phrases."
+    },
+    {
+      "topic": "Nigerian Folksongs",
+      "detail": "Types include cradle songs, folktales, games, war, satirical, dirges, historical, praise and work songs. Forms include call-and-response, strophic, through-composed and antiphonal forms; study vocal styles, scales, modes and rhythmic features."
+    },
+    {
+      "topic": "Nigerian Traditional Music, Festivals, Dance and Arts",
+      "detail": "Features and forms of Nigerian traditional music and related arts; festivals such as Osun, Ifa, Ogun, Ekpo, Ofala, Iriji, Argungu and Eyo; social, ritual and ceremonial dances and performance traditions."
+    },
+    {
+      "topic": "Nigerian Traditional Musical Instruments",
+      "detail": "Classify and identify aerophones, chordophones, idiophones and membranophones; recognise representative Nigerian instruments and their uses."
+    },
+    {
+      "topic": "African Traditional Musicians",
+      "detail": "Study the lives, musical styles and contributions of named Nigerian and other African traditional musicians in the syllabus; identify their groups and musical traditions."
+    },
+    {
+      "topic": "Evolution of African Popular Music",
+      "detail": "Trace the development and features of highlife, juju, Afrobeat, Fuji, Apala, reggae, makossa, hiplife, hip-hop and other listed African popular genres; consider their social influence."
+    },
+    {
+      "topic": "African Popular Musicians",
+      "detail": "Study the biographies, musical styles, genres and contributions of the Nigerian and other African popular musicians named in the syllabus."
+    },
+    {
+      "topic": "African Art Musicians and Composers",
+      "detail": "Study the lives, works, musical styles and contributions of Nigerian and other African art musicians and composers named in the syllabus."
+    },
+    {
+      "topic": "Historical Development of Western Music",
+      "detail": "Trace Western music through the Medieval or Middle Ages (800–1400), Renaissance (1400–1600), Baroque (1600–1750), Classical (1750–1820) and Romantic (1820–1900) periods."
+    },
+    {
+      "topic": "Western Music Composers",
+      "detail": "Identify composers named in the syllabus, including Palestrina, Monteverdi, Purcell, J. S. Bach, Handel, Mozart, Haydn, Beethoven, Schubert and Chopin; assess their contributions."
+    },
+    {
+      "topic": "Western Music Forms",
+      "detail": "Recognise binary, ternary, rondo, sonata-allegro, dance suite, canon, free fantasia, theme and variation, and other forms listed in the syllabus."
+    },
+    {
+      "topic": "Western Instruments, Voice and Performance Media",
+      "detail": "Classify orchestral and band instruments; study human voice types, ranges and qualities; identify keyboard instruments and instruments such as guitar, harp, banjo, mandolin, accordion, xylophone and marimba."
+    },
+    {
+      "topic": "Computer Music Technology",
+      "detail": "Understand the use of music technology and software named in the syllabus, including Finale, Sibelius, Cubase, Reason and Sound Forge, as well as tuning forks and pitch pipes."
+    },
+    {
+      "topic": "Black Musicians in the Diaspora, Global Genres and Nigerian Musical Nationalism",
+      "detail": "Study the diaspora musicians named in the syllabus; identify genres such as spirituals, gospel, jazz, rhythm and blues, soul, calypso, rock and roll, reggae, Afrobeat, tango and rap; examine how Nigerian music expresses nationalism and cultural awareness."
+    }
+  ],
   "Physical and Health Education": [],
   "Principles of Accounts": [
     {
