@@ -905,8 +905,222 @@
       "detail": "Educational systems, socio-economic life, political organization and cultural life of Francophone Africa and France; greetings, dressing, food, leisure, marriage, festivals, art and professions, with comparison to Nigeria where possible."
     }
   ],
-  "Geography": [],
-  "Government": [],
+  "Geography": [
+    {
+      "topic": "Practical Geography: Maps",
+      "detail": "Types and uses of maps; map symbols and conventional signs; interpreting topographical maps and photographs; identifying physical and human features and their relationships."
+    },
+    {
+      "topic": "Scale, Measurement and Map Skills",
+      "detail": "Representative fractions, linear and statement scales; measuring distances and areas; map reduction and enlargement; directions, bearings and gradients; drawing cross profiles and identifying intervisibility."
+    },
+    {
+      "topic": "Statistical Data, Maps and Diagrams",
+      "detail": "Reading and interpreting tables, graphs, charts, statistical data and thematic maps; extracting and computing quantitative information."
+    },
+    {
+      "topic": "Elementary Surveying",
+      "detail": "Chain and prismatic surveying; open and closed traverse; procedures, problems, advantages and disadvantages of the techniques."
+    },
+    {
+      "topic": "Geographic Information System (GIS)",
+      "detail": "GIS components, techniques, data sources and applications; data capture and analysis; remote sensing, map digitising and scanning; uses in defence, agriculture and rural development; challenges in Nigeria."
+    },
+    {
+      "topic": "The Earth as a Planet",
+      "detail": "Earth in the solar system; rotation and revolution; shape and size of the Earth; latitudes, longitudes, distance and time calculations."
+    },
+    {
+      "topic": "The Earth Crust, Rocks and Landforms",
+      "detail": "Internal and external structure of the Earth and relationships among the spheres; rock types, characteristics, formation and uses; tectonic forces; mountains, plateaux, plains, coastal, karst and desert landforms."
+    },
+    {
+      "topic": "Volcanism and Earthquakes",
+      "detail": "Origins and types of volcanoes; volcanic eruptions and earthquakes; landforms associated with volcanic activity and igneous rocks; examples of major events."
+    },
+    {
+      "topic": "Denudation Processes in the Tropics",
+      "detail": "Weathering, erosion, mass movement and deposition; agents of denudation and landforms associated with each process."
+    },
+    {
+      "topic": "Water Bodies",
+      "detail": "Oceans and seas: world distribution, salinity and uses; ocean currents, their types, distribution, causes and effects; lakes, their types, distribution and uses; river action and landforms along river courses."
+    },
+    {
+      "topic": "Weather and Climate",
+      "detail": "Weather and climate concepts; elements and controlling factors including pressure, air masses, altitude, continentality and winds; Greek and Köppen classifications; major climate types and distribution; weather instruments and recording; climate change, causes, effects and remedies."
+    },
+    {
+      "topic": "Vegetation",
+      "detail": "Factors controlling plant growth; plant communities and succession; major vegetation types, characteristics and distribution; effects of human activities on vegetation."
+    },
+    {
+      "topic": "Soils",
+      "detail": "Soil definition and properties; factors and processes of formation; soil profiles and horizons; major tropical soil types, characteristics, distribution and uses; human impacts on soils."
+    },
+    {
+      "topic": "Environmental Resources",
+      "detail": "Atmospheric, land, soil, vegetation and mineral resources; renewable and non-renewable resources; uses and management."
+    },
+    {
+      "topic": "Environmental Interaction",
+      "detail": "Land ecosystem components; relationships within ecosystems; environmental balance; effects of human activities on ecosystems."
+    },
+    {
+      "topic": "Environmental Hazards",
+      "detail": "Natural hazards such as drought, earthquakes, volcanic eruptions and floods; human-induced hazards including erosion, deforestation, pollution and desertification; effects, prevention and control."
+    },
+    {
+      "topic": "Environmental Conservation",
+      "detail": "Meaning, examples, methods and importance of environmental conservation."
+    },
+    {
+      "topic": "Population",
+      "detail": "World population distribution with reference to the Amazon Basin, north-eastern USA, India, Japan and the west coast of Southern Africa; birth and death rates; age and sex structure; distribution and growth factors; migration, population problems and population as a resource."
+    },
+    {
+      "topic": "Settlements",
+      "detail": "Rural and urban settlements; dispersed, nucleated and linear patterns; classification, growth factors and functions; urban problems; relationships between rural and urban settlements, with reference to Western Europe, USA, Middle East and West Africa."
+    },
+    {
+      "topic": "Selected Economic Activities",
+      "detail": "Primary, secondary, tertiary and quaternary activities; agriculture types, systems, factors and problems; manufacturing industries, types, location, distribution, socio-economic importance and problems; other selected activities and their geographical distribution."
+    }
+  ],
+  "Government": [
+    {
+      "topic": "Definition and Scope of Government",
+      "detail": "Government as an institution; its characteristics, scope and functions."
+    },
+    {
+      "topic": "Basic Concepts of Government",
+      "detail": "Power, influence, authority, legitimacy and sovereignty; society, state, nation and nation-state; political socialisation, participation and political culture."
+    },
+    {
+      "topic": "Forms of Government",
+      "detail": "Monarchy, aristocracy, oligarchy, autocracy, republicanism and democracy; definitions, features, merits and demerits."
+    },
+    {
+      "topic": "Arms of Government",
+      "detail": "Legislature, executive and judiciary: types, structures, functions, powers, components and relationships."
+    },
+    {
+      "topic": "Structures of Governance",
+      "detail": "Unitary, federal and confederal structures; features, reasons for adoption, merits and demerits."
+    },
+    {
+      "topic": "Systems of Governance",
+      "detail": "Presidential, parliamentary and monarchical systems; features, merits and demerits."
+    },
+    {
+      "topic": "Political Ideologies",
+      "detail": "Communalism, feudalism, capitalism, socialism, communism, totalitarianism, fascism, Nazism and liberalism; comparison and modes of production."
+    },
+    {
+      "topic": "Constitution",
+      "detail": "Meaning, sources and functions; written and unwritten constitutions; rigid and flexible constitutions."
+    },
+    {
+      "topic": "Principles of Democratic Government",
+      "detail": "Ethics and accountability in public office; separation of powers; checks and balances; individual and collective responsibility; constitutionalism; rule of law; representative government; centralisation and decentralisation."
+    },
+    {
+      "topic": "Processes of Legislation",
+      "detail": "Law-making processes and legislative enactments, including Acts, Edicts, Bye-laws, delegated legislation and Decrees."
+    },
+    {
+      "topic": "Citizenship",
+      "detail": "Meaning and types; acquisition of citizenship; rights, duties and obligations of citizens; dual citizenship, renunciation and deprivation; obligations of the state."
+    },
+    {
+      "topic": "The Electoral Process",
+      "detail": "Suffrage and its evolution and types; elections and electoral systems; ingredients of free and fair elections; pre- and post-election crises; electoral commissions, functions and problems."
+    },
+    {
+      "topic": "Political Parties and Party Systems",
+      "detail": "Definition, organisation and functions of political parties; types of party systems, their organisation, functions, merits and demerits."
+    },
+    {
+      "topic": "Pressure Groups",
+      "detail": "Meaning, types, functions and modes of operation; differences between pressure groups and political parties."
+    },
+    {
+      "topic": "Public Opinion",
+      "detail": "Meaning, formation, measurement, functions and limitations; methods of assessing public opinion."
+    },
+    {
+      "topic": "Civil Service and Public Service",
+      "detail": "Definitions, characteristics, functions, structures, control and problems; significance in governance and differences between civil and public service."
+    },
+    {
+      "topic": "Pre-colonial Political Systems in Nigeria",
+      "detail": "Hausa/Fulani emirates, Tiv, Igbo and Yoruba political systems; structural organisation and functions of political institutions; comparison and effectiveness."
+    },
+    {
+      "topic": "Imperialist Penetration",
+      "detail": "British acquisition through trade, missionary activities, company rule, crown colony and protectorate; British direct and indirect rule; French assimilation and association; economic, political and socio-cultural impacts; comparison of colonial policies."
+    },
+    {
+      "topic": "Decolonisation",
+      "detail": "Nationalism and its types; nationalist movements, goals and strategies; nationalist leaders and parties; external influences including Pan-Africanism, Back-to-Africa movements and the Second World War."
+    },
+    {
+      "topic": "Constitutional Development in Nigeria",
+      "detail": "Clifford (1922), Richards (1946), Macpherson (1951), Lyttleton (1954) and Independence (1960) constitutions; features, merits and demerits."
+    },
+    {
+      "topic": "Post-independence Constitutions",
+      "detail": "The 1963, 1979, 1989 and 1999 constitutions (as amended); characteristics, workings, merits and shortcomings."
+    },
+    {
+      "topic": "Institutions of Government in Post-independence Nigeria",
+      "detail": "Legislature, executive and judiciary: structures, functions and workings; operations of agencies such as the civil service, armed forces, police and courts."
+    },
+    {
+      "topic": "Public Commissions",
+      "detail": "Civil Service Commission, Public Complaints Commission, electoral commissions, National Boundary Commission, ICPC and EFCC; objectives, functions, operations, problems and constraints."
+    },
+    {
+      "topic": "Political Parties and Party Politics after Independence",
+      "detail": "Party development and politics in the First, Second, Third and Fourth Republics; membership spread, structure, ideologies and composition."
+    },
+    {
+      "topic": "Nigerian Federalism",
+      "detail": "Rationale for federalism; tiers of government and their relationships; state creation in 1963, 1967, 1976, 1987, 1991 and 1996; census, revenue allocation and other challenges; Federal Character Principle and possible remedies."
+    },
+    {
+      "topic": "Public Corporations and Parastatals",
+      "detail": "Definitions, types, purposes, functions, finance, control and problems; deregulation, privatisation and commercialisation, including objectives, features, merits and demerits."
+    },
+    {
+      "topic": "Local Government",
+      "detail": "Administration before 1976; reforms of 1976 and 1989; structure, functions, finance and intergovernmental relations; traditional rulers and local government; administrative problems."
+    },
+    {
+      "topic": "The Military in Nigerian Politics",
+      "detail": "Factors behind military intervention; structure of military regimes; political and economic impacts, including state creation, NYSC, Unification Decree No. 34, SAP, DFRRI, Peoples Bank and MAMSER; disengagement from politics."
+    },
+    {
+      "topic": "Foreign Policy",
+      "detail": "Meaning, purpose and determinants of foreign policy; formulation and implementation."
+    },
+    {
+      "topic": "Nigeria's Foreign Policy",
+      "detail": "Relations with major powers and developing countries; Technical Aid Corps and peace-keeping; non-alignment and Nigeria’s foreign-policy objectives."
+    },
+    {
+      "topic": "Nigeria's Relations with African Countries",
+      "detail": "Africa as the centrepiece of Nigeria’s foreign policy; guiding principles, implementation and implications; NEPAD, its origin, objectives and implications."
+    },
+    {
+      "topic": "Nigeria in International Organisations",
+      "detail": "Nigeria’s participation in the United Nations, Commonwealth, OAU, African Union, ECOWAS and OPEC; dynamics and contributions to Nigeria."
+    },
+    {
+      "topic": "International Organisations",
+      "detail": "ECOWAS, OAU/AU, Commonwealth, OPEC, UNO and African Petroleum Producers Association; origins, objectives, structures, functions, achievements, problems and prospects."
+    }
+  ],
   "Hausa": [
     {
       "topic": "Harshe (Language)",
@@ -1193,8 +1407,194 @@
       "detail": "Sorting, stain removal, washing, rinsing, drying, ironing, laundry agents, dry cleaning and care of clothing."
     }
   ],
-  "Igbo": [],
-  "Islamic Studies": [],
+  "Igbo": [
+    {
+      "topic": "Essay Writing (Edemede)",
+      "detail": "Principles of essay writing: introduction, body and conclusion; narrative, descriptive, expository and argumentative essays; speech writing, letter writing and dialogue."
+    },
+    {
+      "topic": "Comprehension (Aghọtaazaa)",
+      "detail": "Read a passage of about 150 words; explain difficult words; answer questions; recognise figurative and idiomatic expressions; draw conclusions from the passage."
+    },
+    {
+      "topic": "Sounds and Sound Patterns",
+      "detail": "Vowels and consonants; syllabic nasals; syllable structure; vowel harmony and assimilation; vowel and consonant elision; tone and tone marking."
+    },
+    {
+      "topic": "Spelling and Spelling Rules",
+      "detail": "Correct spelling, consonant restrictions, word division and application of Igbo spelling rules."
+    },
+    {
+      "topic": "Igbo Orthography",
+      "detail": "Igbo alphabet and accepted writing conventions."
+    },
+    {
+      "topic": "Dialect and Standard Igbo",
+      "detail": "Differences between dialects and Standard Igbo; appropriate use of Standard Igbo in writing."
+    },
+    {
+      "topic": "Vocabulary Development",
+      "detail": "Word derivation, coinages, loan words and loan-blends; meanings and appropriate usage."
+    },
+    {
+      "topic": "Grammar: Parts of Speech",
+      "detail": "Nominals, verbs, adjectives, adverbs, affixes and enclitics; grammatical categories and their functions."
+    },
+    {
+      "topic": "Morphemes and Language Structure",
+      "detail": "Structure, types and functions of free and bound morphemes; words, phrases, nominal and adverbial clauses, and simple, compound and complex sentences."
+    },
+    {
+      "topic": "Translation (Ntụgharị)",
+      "detail": "Translation from English into Igbo and Igbo into English; accurate meaning and effective communication."
+    },
+    {
+      "topic": "Literary Devices",
+      "detail": "Alliteration, assonance, parallelism, metaphor, simile, hyperbole, personification and proverbs; identification, interpretation and use."
+    },
+    {
+      "topic": "Oral Literature",
+      "detail": "Folktales, anecdotes, myths, legends, poems, songs, chants, riddles, oral drama and tongue-twisters; analysis, performance and lessons."
+    },
+    {
+      "topic": "Written Prose",
+      "detail": "Study of the prescribed prose text: A Chọwa Isi Ọchụ by Chinedu Ofomata; plot, characters, themes, language, expressions, author, publisher and publication details."
+    },
+    {
+      "topic": "Written Poetry",
+      "detail": "Study of the prescribed collection Ụtara Ntị by Nolue Emenanjọ and the selected poems listed in the JAMB syllabus; themes, structure, imagery, expressions, poets and lessons."
+    },
+    {
+      "topic": "Written Drama",
+      "detail": "Study of Ọjaadịlị by Ọdụnke Artists; dramatic form, plot, characters, themes, language, social issues and lessons."
+    },
+    {
+      "topic": "Igbo Greetings and Social Customs",
+      "detail": "Different greetings for morning, afternoon, evening, meals, sleep and work; appropriate social use."
+    },
+    {
+      "topic": "Marriage, Family and Life-cycle Customs",
+      "detail": "Marriage and divorce; childbirth, omugwo, naming, circumcision and related customs; title-taking and traditional social roles."
+    },
+    {
+      "topic": "Kinship, Governance and Community Institutions",
+      "detail": "Ike ekpe, funeral and dispute practices; ụmụnna, ụmụada, age grades, kindreds, extended family and community; traditional leadership and governance."
+    },
+    {
+      "topic": "Beliefs, Hospitality, Economy and Traditional Practices",
+      "detail": "Taboos and sacred places or objects; hospitality, kola nut and chalk; divination, sacrifice, worship and beliefs; land, farming, animal husbandry, crafts, trade, games and spiritual items."
+    },
+    {
+      "topic": "General and Current Affairs",
+      "detail": "Current issues in Igbo language, literature and culture; Ahịajiọkụ and Odenigbo lectures; Ọhanaeze Ndị Igbo; Igbo Studies Association; authors, publishers, dates and places of publication; comprehension themes including public health, substance misuse, cultism, rights and religious conflict."
+    }
+  ],
+  "Islamic Studies": [
+    {
+      "topic": "Revelation of the Glorious Qur’an",
+      "detail": "The Prophet’s visits to Cave Hira; reaction to the first revelation and its importance; modes of revelation (Q.42:51); piecemeal revelation and its reasons (Q.17:106; Q.25:32)."
+    },
+    {
+      "topic": "Preservation of the Glorious Qur’an",
+      "detail": "Arrangement of the Qur’an; Makkan and Madinan suwar; recording, compilation and standardisation; roles of the Companions of the Prophet (SAW)."
+    },
+    {
+      "topic": "Importance and Divine Authenticity of the Qur’an",
+      "detail": "The Qur’an as guidance in spiritual, moral, economic, political and sociocultural matters; proof of divine authenticity (Q.4:82; Q.41:42); uniqueness and divine preservation (Q.39:27; Q.17:88; Q.75:16–19; Q.15:9)."
+    },
+    {
+      "topic": "Tafsīr",
+      "detail": "Historical development, sources, importance and types of Tafsīr."
+    },
+    {
+      "topic": "Introduction to Tajwīd",
+      "detail": "Meaning and importance of Tajwīd; theory and practice of correct Qur’anic recitation."
+    },
+    {
+      "topic": "Selected Short Suwar and Ayat with Tajwīd",
+      "detail": "Arabic text, recitation, translation and lessons of al-Fātiḥah; al-‘Ādiyāt; al-Qāri‘ah; at-Takāthur; al-‘Aṣr; al-Humazah; al-Mā‘ūn; al-Kawthar; al-Kāfirūn; an-Naṣr; al-Masad; al-Ikhlāṣ; al-Falaq and an-Nās."
+    },
+    {
+      "topic": "Selected Longer Suwar and Ayat with Tajwīd",
+      "detail": "Arabic text, recitation, lessons and teachings of al-A‘lā; aḍ-Ḍuḥā; al-Inshirāḥ; at-Tīn; al-‘Alaq; al-Qadr; al-Bayyinah; az-Zilzāl; Āyat al-Kursī (Q.2:255); Āmanar-Rasūl (Q.2:285–286) and Laqad jā’akum (Q.9:128–129)."
+    },
+    {
+      "topic": "Hadith: History and Authentication",
+      "detail": "History of Hadith literature from the Prophet’s time to the six authentic collectors; Isnad and Asma’ur-rijal; Matn; classification into Sahih, Hassan and Da‘if."
+    },
+    {
+      "topic": "Hadith and the Qur’an",
+      "detail": "Importance of Hadith; relationship, similarities and differences between Hadith and the Glorious Qur’an."
+    },
+    {
+      "topic": "Collectors of Hadith and Muwatta",
+      "detail": "Biographies and works of the six sound collectors; Imam Malik’s biography and study of al-Muwatta."
+    },
+    {
+      "topic": "Selected Hadith from an-Nawawi",
+      "detail": "Study of Hadith numbers 1, 3, 5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 18, 19, 21, 22, 25, 27, 34 and 41; interpretation and application."
+    },
+    {
+      "topic": "Moral Lessons in the Qur’an and Hadith",
+      "detail": "Luqman’s advice (Q.31:18–20); goodness to parents; honesty; prohibition of bribery, corruption, intoxicants, gambling, theft and fraud; dignity of labour; modesty; leadership, justice, trust, piety, patience, unity and enjoining good."
+    },
+    {
+      "topic": "Tawhid and Kalimatush-Shahadah",
+      "detail": "Meaning, importance and lessons of Tawhid; meaning and significance of Kalimatush-Shahadah; oneness of Allah; servanthood and messengership of Prophet Muhammad (SAW); universality and finality of his prophethood."
+    },
+    {
+      "topic": "Shirk and Practices Incompatible with Tawhid",
+      "detail": "Beliefs including idol worship, ancestral worship, trinity and atheism; practices including superstition, fortune-telling, magic and witchcraft, cult worship and bid‘ah; relevant Qur’anic verses and Hadith."
+    },
+    {
+      "topic": "Articles of Faith",
+      "detail": "Belief in Allah, His attributes and works; angels; revealed books; Prophets including Ulul-azmi; the Last Day (Yawm-al-Ba‘th); destiny and the distinction between Qada and Qadar."
+    },
+    {
+      "topic": "Ibadat and Their Types",
+      "detail": "Good deeds; Taharah including istinja’, istijmar, wudu’, tayammum and ghusl; Salah, its importance, types and invalidators; Zakah types, collection, distribution and difference from sadaqah; Sawm, exemptions and invalidators; Hajj, types, essentials, conditions and difference from Umrah; concept, kinds, manner and lessons of Jihad."
+    },
+    {
+      "topic": "Family Matters",
+      "detail": "Marriage: importance, prohibited categories, validity, rights and duties of spouses, polygamy and ill-treatment; divorce, its types, iddah, prohibited forms and child custody; inheritance, heirs and prescribed shares."
+    },
+    {
+      "topic": "Sources and Schools of Islamic Law",
+      "detail": "The Qur’an, Sunnah, Ijma and Qiyas; the four major Sunni schools of law, their founders’ biographies and contributions."
+    },
+    {
+      "topic": "Islamic Economic System",
+      "detail": "Islamic attitude to Riba; at-tatfif and hoarding; Islamic revenue sources including Zakah, Jizyah, Kharaj and Ghanimah; Baitul-mal and socioeconomic welfare; comparison with Western economic systems."
+    },
+    {
+      "topic": "Islamic Political System",
+      "detail": "Allah as Sovereign; Shurah (consultation); Adalah (justice) and Mas’uliyah (accountability); rights of non-Muslims in an Islamic state; comparison with Western political systems."
+    },
+    {
+      "topic": "Pre-Islamic Arabia (Jahiliyyah)",
+      "detail": "Practices in pre-Islamic Arabia, including idol worship, infanticide, polyandry, gambling and usury; reforms introduced by Islam."
+    },
+    {
+      "topic": "Life of Prophet Muhammad (SAW)",
+      "detail": "Birth and early life; call to prophethood; Da‘wah in Makkah and Madinah; Hijrah; administration of the Ummah and role of the mosque; Battles of Badr, Uhud and Khandaq; Treaty of al-Hudaibiyyah; conquest of Makkah; Farewell Pilgrimage and sermon; qualities and lessons."
+    },
+    {
+      "topic": "The Rightly Guided Caliphs",
+      "detail": "Lives, biographies and contributions of the four Rightly Guided Caliphs (al-Khulafa’u ar-Rashidun) to the development of Islam."
+    },
+    {
+      "topic": "Early Contact of Islam with Africa",
+      "detail": "Hijrah to Abyssinia; spread of Islam to Egypt; roles of traders, teachers, preachers, Murabitun, Sufi orders and Mujaddidun in the spread of Islam in West Africa."
+    },
+    {
+      "topic": "Impact of Islam in West Africa",
+      "detail": "Influence on sociopolitical life of Ghana, Mali, Songhai and Borno; impact on economic life of Timbuktu, Kano and Borno."
+    },
+    {
+      "topic": "Contributions of Islam to Education",
+      "detail": "Aims of Islamic education; Qur’an and Hadith on education; importance of seeking knowledge; intellectual activity and written history in Arabic; Sankore University; contributions of Ahmad Baba, al-Maghili, Uthman Dan Fodio, Sultan Muhammad Bello and Ibn Battuta; House of Wisdom, al-Azhar and Nizamiyyah; contributions of Ibn Sina, al-Ghazali, Ibn Rushd, ar-Razi and Ibn Khaldun."
+    }
+  ],
   "Literature in English": [],
   "Music": [],
   "Physical and Health Education": [],
