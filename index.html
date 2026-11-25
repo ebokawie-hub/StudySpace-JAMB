@@ -27,6 +27,25 @@
   </main>
 </div>
 <div id="toast" class="toast" role="status"></div>
+  <div class="account-panel" id="accountPanel">
+  <div class="account-card">
+    <h2>Welcome to StudySpace</h2>
+    <p>Sign in to sync your study progress.</p>
+
+    <label for="accountEmail">Email address</label>
+    <input type="email" id="accountEmail" placeholder="Enter your email">
+
+    <label for="accountPassword">Password</label>
+    <input type="password" id="accountPassword" placeholder="Enter your password">
+
+    <button id="emailSignupBtn">Create account</button>
+    <button id="emailLoginBtn">Sign in</button>
+    <button id="googleLoginBtn">Continue with Google</button>
+    <button id="accountCloseBtn">Close</button>
+
+    <p id="accountMessage"></p>
+  </div>
+</div>
 <input id="importFile" type="file" accept="application/json" hidden>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js"></script>
