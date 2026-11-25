@@ -196,4 +196,32 @@ $("#accountCloseBtn").addEventListener("click", () => {
 $("#emailSignupBtn").addEventListener("click", signUpStudent);
 $("#emailLoginBtn").addEventListener("click", loginStudent);
 $("#googleLoginBtn").addEventListener("click", loginWithGoogle);
+// RESTORE STUDENT LOGIN SESSION
+
+async function restoreStudentSession() {
+  if (!supabaseClient) return;
+
+  const { data, error } = await supabaseClient.auth.getSession();
+
+  if (error) {
+    console.error("Session restore failed:", error.message);
+    return;
+  }
+
+  cloudUser = data.session?.user || null;
+
+  $("#accountBtn").textContent = cloudUser
+    ? "Account"
+    : "Sign in";
+}
+
+restoreStudentSession();
+
+supabaseClient.auth.onAuthStateChange((event, session) => {
+  cloudUser = session?.user || null;
+
+  $("#accountBtn").textContent = cloudUser
+    ? "Account"
+    : "Sign in";
+});
 (async()=>{loadState();await loadData();connection();render();if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}})();
