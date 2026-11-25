@@ -31,12 +31,13 @@ const questionBank=[
 {subject:"Use of English",q:"Which word contains the /ʃ/ sound?",opts:["Ship","Sip","Chip","Zip"],a:0,why:"The initial sound in 'ship' is /ʃ/."}
 ];
 async function loadData(){try{const r=await fetch("syllabus.json");syllabus=await r.json()}catch(e){syllabus={}}}
-let cloudUser = null;
-let cloudSaveTimer = null;
 
 let cloudUser = null;
 let cloudSaveTimer = null;
 
+function save(){
+  localStorage.setItem("studyspace-jamb-2027",JSON.stringify(state));
+  $("#saveState").textContent = "● Saved locally";
   if (!cloudUser || !supabaseClient) return;
 
   clearTimeout(cloudSaveTimer);
