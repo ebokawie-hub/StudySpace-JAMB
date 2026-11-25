@@ -68,6 +68,7 @@ function subjectStats(name){let arr=syllabus[name]||[],done=arr.filter(x=>state.
 function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function toast(s){let t=$("#toast");t.textContent=s;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2200)}
 function setView(v){view=v;document.querySelector(".sidebar").classList.remove("open");;$$(".nav-item").forEach(b=>b.classList.toggle("active",b.dataset.view===v));render()}
+
 function render(){const names={overview:"Good study day!",subjects:"Choose your UTME subjects",syllabus:"Your syllabus tracker",planner:"Your study planner",notes:"Your study notes",cbt:"CBT practice"};$("#pageTitle").textContent=names[view];({overview:overview,subjects:subjectsView,syllabus:syllabusView,planner:plannerView,notes:notesView,cbt:cbtView}[view])()}
 function overview(){
 let total=allTopics(),done=completed(),pct=total?Math.round(done/total*100):0;
@@ -123,4 +124,76 @@ $("#nav").addEventListener("click",e=>{let b=e.target.closest("[data-view]");if(
 document.querySelector(".sidebar").classList.toggle("open");$("#exportBtn").onclick=()=>{let choice=confirm("Export a backup of your progress now? Choose Cancel to import a backup instead.");if(choice)exportBackup();else $("#importFile").click()};$("#importFile").onchange=e=>{if(e.target.files[0])importBackup(e.target.files[0])};
 function connection(){let online=navigator.onLine;$("#connectionText").textContent=online?"Online · saved on device":"Offline mode · available";$("#connectionText").previousElementSibling.style.background=online?"#19a77a":"#f0a343"}
 window.addEventListener("online",connection);window.addEventListener("offline",connection);
+
+// STUDYSPACE STUDENT AUTHENTICATION
+
+async function signUpStudent() {
+  const email = $("#accountEmail").value.trim();
+  const password = $("#accountPassword").value;
+
+  if (!email || !password) {
+    $("#accountMessage").textContent = "Enter your email and password.";
+    return;
+  }
+
+  const { error } = await supabaseClient.auth.signUp({
+    email,
+    password
+  });
+
+  $("#accountMessage").textContent = error
+    ? error.message
+    : "Account created! Check your email to confirm your account.";
+}
+
+async function loginStudent() {
+  const email = $("#accountEmail").value.trim();
+  const password = $("#accountPassword").value;
+
+  if (!email || !password) {
+    $("#accountMessage").textContent = "Enter your email and password.";
+    return;
+  }
+
+  const { data, error } = await supabaseClient.auth.signInWithPassword({
+    email,
+    password
+  });
+
+  if (error) {
+    $("#accountMessage").textContent = error.message;
+    return;
+  }
+
+  cloudUser = data.user;
+  $("#accountPanel").classList.remove("active");
+  $("#accountBtn").textContent = "Account";
+
+  $("#accountMessage").textContent = "Signed in successfully!";
+}
+
+async function loginWithGoogle() {
+  const { error } = await supabaseClient.auth.signInWithOAuth({
+    provider: "google",
+    options: {
+      redirectTo: "https://ebokawie-hub.github.io/StudySpace-JAMB/"
+    }
+  });
+
+  if (error) {
+    $("#accountMessage").textContent = error.message;
+  }
+}
+
+$("#accountBtn").addEventListener("click", () => {
+  $("#accountPanel").classList.add("active");
+});
+
+$("#accountCloseBtn").addEventListener("click", () => {
+  $("#accountPanel").classList.remove("active");
+});
+
+$("#emailSignupBtn").addEventListener("click", signUpStudent);
+$("#emailLoginBtn").addEventListener("click", loginStudent);
+$("#googleLoginBtn").addEventListener("click", loginWithGoogle);
 (async()=>{loadState();await loadData();connection();render();if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}})();
