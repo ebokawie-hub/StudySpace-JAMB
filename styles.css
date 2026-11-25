@@ -17,3 +17,44 @@
 .official-syllabus h3{margin:0 0 8px}.official-syllabus a,.panel a{color:var(--purple);font-size:12px;font-weight:700}
 @media(max-width:800px){.choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.choice-grid{grid-template-columns:1fr}.subject-setup{padding:14px}}
+/* StudySpace student account */
+.account-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0,0,0,.65);
+}
+
+.account-panel.active {
+  display: flex;
+}
+
+.account-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 25px;
+  border-radius: 16px;
+  background: var(--card, #fff);
+  color: var(--text, #222);
+}
+
+.account-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.account-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
