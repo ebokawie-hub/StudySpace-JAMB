@@ -31,7 +31,36 @@ const questionBank=[
 {subject:"Use of English",q:"Which word contains the /ʃ/ sound?",opts:["Ship","Sip","Chip","Zip"],a:0,why:"The initial sound in 'ship' is /ʃ/."}
 ];
 async function loadData(){try{const r=await fetch("syllabus.json");syllabus=await r.json()}catch(e){syllabus={}}}
-function save(){localStorage.setItem("studyspace-jamb-2027",JSON.stringify(state));$("#saveState").textContent="● Saved locally"}
+let cloudUser = null;
+let cloudSaveTimer = null;
+
+function save(){
+  localStorage.setItem("studyspace-jamb-2027",JSON.stringify(state));
+  $("#saveState").textContent = "● Saved locally";
+
+  if (!cloudUser || !supabaseClient) return;
+
+  clearTimeout(cloudSaveTimer);
+
+  cloudSaveTimer = setTimeout(async () => {
+    const savedData = JSON.parse(JSON.stringify(state));
+
+    const { error } = await supabaseClient
+      .from("student_progress")
+      .upsert({
+        user_id: cloudUser.id,
+        data: savedData,
+        updated_at: new Date().toISOString()
+      });
+
+    if (error) {
+      console.error("Cloud save failed:", error.message);
+      $("#saveState").textContent = "● Saved locally — cloud pending";
+    } else {
+      $("#saveState").textContent = "● Saved to cloud";
+    }
+  }, 1000);
+}
 function loadState(){try{state={...state,...JSON.parse(localStorage.getItem("studyspace-jamb-2027")||"{}")}}catch(e){};state.progress||={};state.tasks||=[];state.notes||=[];state.quizHistory||=[];if(!Array.isArray(state.selectedSubjects))state.selectedSubjects=["Use of English","Mathematics","Physics","Chemistry"]}
 function allTopics(){return Object.values(syllabus).reduce((a,b)=>a+b.length,0)}
 function completed(){return Object.values(state.progress).filter(x=>x==="Completed").length}
