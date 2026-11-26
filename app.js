@@ -186,7 +186,11 @@ async function loginWithGoogle() {
 }
 
 $("#accountBtn").addEventListener("click", () => {
-  $("#accountPanel").classList.add("active");
+  if (cloudUser) {
+    openStudentProfile();
+  } else {
+    $("#accountPanel").classList.add("active");
+  }
 });
 
 $("#accountCloseBtn").addEventListener("click", () => {
@@ -224,4 +228,45 @@ supabaseClient.auth.onAuthStateChange((event, session) => {
     ? "Account"
     : "Sign in";
 });
+
+// DISPLAY STUDENT PROFILE
+
+function openStudentProfile() {
+  if (!cloudUser) return;
+
+  const details = cloudUser.user_metadata || {};
+
+  $("#profileName").textContent =
+    details.full_name ||
+    details.name ||
+    "StudySpace Student";
+
+  $("#profileEmail").textContent = cloudUser.email || "";
+
+  $("#profileAvatar").src =
+    details.avatar_url ||
+    details.picture ||
+    "https://www.gravatar.com/avatar/?d=mp";
+
+  const subjects = state.selectedSubjects || [];
+
+  $("#profileSubjects").textContent =
+    subjects.join(", ") || "No subjects selected yet";
+
+  const total = allTopics();
+  const done = completed();
+  const percentage = total
+    ? Math.round((done / total) * 100)
+    : 0;
+
+  $("#profileProgress").textContent =
+    `${done} of ${total} topics completed (${percentage}%)`;
+
+  $("#profileSync").textContent = navigator.onLine
+    ? "Signed in · Cloud connection available"
+    : "Offline · Changes saved on this device";
+
+  $("#profilePanel").classList.add("active");
+}
+
 (async()=>{loadState();await loadData();connection();render();if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}})();
