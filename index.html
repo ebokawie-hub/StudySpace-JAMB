@@ -46,6 +46,40 @@
     <p id="accountMessage"></p>
   </div>
 </div>
+  
+<div class="account-panel" id="profilePanel">
+  <div class="account-card">
+    <h2>My StudySpace Profile</h2>
+
+    <img
+      id="profileAvatar"
+      src="https://www.gravatar.com/avatar/?d=mp"
+      alt="Student profile picture"
+      width="85"
+      height="85"
+      style="border-radius:50%;object-fit:cover"
+    >
+
+    <h3 id="profileName">Student</h3>
+    <p id="profileEmail">Loading email...</p>
+
+    <hr>
+
+    <p><b>My JAMB subjects</b></p>
+    <p id="profileSubjects">Loading subjects...</p>
+
+    <p><b>Syllabus progress</b></p>
+    <p id="profileProgress">Loading progress...</p>
+
+    <p><b>Cloud synchronisation</b></p>
+    <p id="profileSync">Checking account...</p>
+
+    <button id="editProfileBtn">Edit profile</button>
+    <button id="signOutBtn">Sign out</button>
+    <button id="profileCloseBtn">Close</button>
+  </div>
+</div>
+
 <input id="importFile" type="file" accept="application/json" hidden>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js"></script>
