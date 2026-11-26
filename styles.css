@@ -58,3 +58,35 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* StudySpace student profile */
+#profilePanel {
+  position: fixed;
+  inset: 0;
+  z-index: 1001;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+#profilePanel.active {
+  display: flex;
+}
+
+#profilePanel .account-card {
+  max-height: 90vh;
+  overflow-y: auto;
+  text-align: center;
+}
+
+#profilePanel hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+#profilePanel button {
+  display: block;
+}
