@@ -267,6 +267,22 @@ function openStudentProfile() {
     : "Offline · Changes saved on this device";
 
   $("#profilePanel").classList.add("active");
-}
+ 
+$("#profileCloseBtn").addEventListener("click", () => {
+  $("#profilePanel").classList.remove("active");
+});
+
+$("#signOutBtn").addEventListener("click", async () => {
+  const { error } = await supabaseClient.auth.signOut();
+
+  if (error) {
+    $("#profileSync").textContent = error.message;
+    return;
+  }
+
+  cloudUser = null;
+  $("#profilePanel").classList.remove("active");
+  $("#accountBtn").textContent = "Sign in";
+});
 
 (async()=>{loadState();await loadData();connection();render();if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}})();
