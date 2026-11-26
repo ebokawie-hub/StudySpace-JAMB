@@ -179,3 +179,35 @@
   color: #3ecf8e;
   margin-top: 15px;
 }
+
+/* STUDYSPACE AUTH BRANDING */
+
+#accountPanel .auth-brand {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+#accountPanel .auth-brand .auth-logo {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: #3ecf8e;
+  color: #092b1d;
+  font-size: 27px;
+  font-weight: 800;
+}
+
+#accountPanel .auth-brand h2 {
+  font-size: 27px;
+  margin: 0 0 8px;
+}
+
+#accountPanel .auth-brand p {
+  color: #9ba69f;
+  font-size: 14px;
+  margin: 0;
+}
