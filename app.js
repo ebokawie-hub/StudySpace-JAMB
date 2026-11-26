@@ -267,7 +267,9 @@ function openStudentProfile() {
     : "Offline · Changes saved on this device";
 
   $("#profilePanel").classList.add("active");
- // EDIT STUDENT PROFILE
+}
+
+// EDIT STUDENT PROFILE
 
 $("#editProfileBtn").addEventListener("click", async () => {
   const currentName = $("#profileName").textContent;
