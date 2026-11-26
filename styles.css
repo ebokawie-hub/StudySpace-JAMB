@@ -90,3 +90,92 @@
 #profilePanel button {
   display: block;
 }
+
+/* STUDYSPACE DARK AUTHENTICATION DESIGN */
+
+#accountPanel {
+  background: rgba(5, 10, 8, 0.88);
+  backdrop-filter: blur(10px);
+}
+
+#accountPanel .account-card {
+  max-width: 430px;
+  padding: 38px;
+  background: #171b19;
+  color: #ededed;
+  border: 1px solid #303936;
+  border-radius: 14px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
+}
+
+#accountPanel h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+#accountPanel .account-card p {
+  color: #a1aaa5;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+#accountPanel label {
+  display: block;
+  color: #d5ddd8;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+#accountPanel .account-card input {
+  box-sizing: border-box;
+  background: #101512;
+  color: #ffffff;
+  border: 1px solid #39443e;
+  border-radius: 7px;
+  padding: 13px;
+  outline: none;
+}
+
+#accountPanel .account-card input:focus {
+  border-color: #3ecf8e;
+  box-shadow: 0 0 0 2px rgba(62, 207, 142, 0.15);
+}
+
+#accountPanel .account-card button {
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+#emailLoginBtn {
+  background: #3ecf8e;
+  color: #062b1c;
+}
+
+#emailLoginBtn:hover {
+  background: #54dfa0;
+}
+
+#emailSignupBtn {
+  background: transparent;
+  color: #e5eee8;
+  border: 1px solid #46534b !important;
+}
+
+#googleLoginBtn {
+  background: #252d28;
+  color: #ffffff;
+  border: 1px solid #46534b !important;
+}
+
+#accountCloseBtn {
+  background: transparent;
+  color: #9ba69f;
+}
+
+#accountPanel #accountMessage {
+  color: #3ecf8e;
+  margin-top: 15px;
+}
