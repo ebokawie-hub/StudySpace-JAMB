@@ -217,9 +217,56 @@ async function restoreStudentSession() {
   $("#accountBtn").textContent = cloudUser
     ? "Account"
     : "Sign in";
+ if (cloudUser) {
+  await loadStudentCloudProgress(cloudUser);
+}
 }
 
-restoreStudentSession();
+async function loadStudentCloudProgress(user) {
+  if (!user || !supabaseClient) return;
+
+  const { data, error } = await supabaseClient
+    .from("student_progress")
+    .select("data")
+    .eq("user_id", user.id)
+    .maybeSingle();
+
+  if (error) {
+    console.error("Cloud restore failed:", error.message);
+    return;
+  }
+
+  if (!data) {
+    console.log("No cloud progress found for this student yet.");
+    return;
+  }
+
+  const localState = JSON.parse(
+    localStorage.getItem("studyspace-jamb-2027") || "{}"
+  );
+
+  const hasLocalProgress =
+    Object.keys(localState.progress || {}).length > 0 ||
+    (localState.tasks || []).length > 0 ||
+    (localState.notes || []).length > 0;
+
+  if (hasLocalProgress) {
+    console.log("Local progress exists. Cloud restore paused to protect it.");
+    return;
+  }
+
+  state = { ...state, ...data.data };
+
+  localStorage.setItem(
+    "studyspace-jamb-2027",
+    JSON.stringify(state)
+  );
+
+  render();
+
+  console.log("Cloud progress restored successfully!");
+}
+
 
 supabaseClient.auth.onAuthStateChange((event, session) => {
   cloudUser = session?.user || null;
@@ -227,6 +274,12 @@ supabaseClient.auth.onAuthStateChange((event, session) => {
   $("#accountBtn").textContent = cloudUser
     ? "Account"
     : "Sign in";
+
+  if (session?.user && event === "SIGNED_IN") {
+    setTimeout(() => {
+      loadStudentCloudProgress(session.user);
+    }, 0);
+  }
 });
 
 // DISPLAY STUDENT PROFILE
@@ -309,4 +362,16 @@ $("#signOutBtn").addEventListener("click", async () => {
   $("#accountBtn").textContent = "Sign in";
 });
 
-(async()=>{loadState();await loadData();connection();render();if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}})();
+(async () => {
+  loadState();
+  await loadData();
+
+  await restoreStudentSession();
+
+  connection();
+  render();
+
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
+})();
