@@ -148,7 +148,66 @@ function showQuestion(){let q=quiz.qs[quiz.i];if(!q){quiz=null;cbtView();return}
 $$("[data-option]").forEach(el=>el.onclick=()=>{quiz.answers[quiz.i]=+el.dataset.option;showQuestion()});$("#quitQuiz").onclick=()=>{quiz=null;cbtView()};$("#nextQuestion").onclick=()=>{if(quiz.i<quiz.qs.length-1){quiz.i++;showQuestion()}else finishQuiz()}}
 function finishQuiz(){let score=quiz.qs.filter((q,i)=>quiz.answers[i]===q.a).length;state.quizHistory.unshift({subject:quiz.subject,score,total:quiz.qs.length,date:new Date().toLocaleDateString()});save();$("#view").innerHTML=`<div class="quiz-card" style="text-align:center"><div style="font-size:42px">🎉</div><h2>Practice complete!</h2><div style="font:800 42px 'Plus Jakarta Sans';color:var(--purple)">${score}/${quiz.qs.length}</div><p class="muted">You answered ${Math.round(score/quiz.qs.length*100)}% correctly.</p>${quiz.qs.map((q,i)=>`<div class="quick-row" style="text-align:left"><span>${quiz.answers[i]===q.a?"✓":"✕"}</span><span>${esc(q.q)}<small style="display:block;color:#888">${esc(q.why)}</small></span></div>`).join("")}<button class="btn" id="again">Back to CBT practice</button></div>`;quiz=null;$("#again").onclick=cbtView}
 function exportBackup(){let blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),state},null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="studyspace-jamb-backup.json";a.click();URL.revokeObjectURL(a.href);toast("Backup exported")}
-function importBackup(file){let r=new FileReader();r.onload=()=>{try{let data=JSON.parse(r.result);if(!data.state)throw Error();state={...state,...data.state};save();render();toast("Backup imported")}catch(e){toast("That backup file could not be read")}};r.readAsText(file)}
+
+function importBackup(file) {
+  let r = new FileReader();
+
+  r.onload = () => {
+    try {
+      let data = JSON.parse(r.result);
+
+      if (!data.state) throw Error("Invalid backup");
+
+      const imported = data.state;
+
+      const mergedProgress = {
+        ...(state.progress || {}),
+        ...(imported.progress || {})
+      };
+
+      for (const key of Object.keys(mergedProgress)) {
+        if (
+          state.progress?.[key] === "Completed" ||
+          imported.progress?.[key] === "Completed"
+        ) {
+          mergedProgress[key] = "Completed";
+        }
+      }
+
+      function mergeArrays(a, b) {
+        const combined = [...(a || []), ...(b || [])];
+
+        return combined.filter((item, index, array) =>
+          array.findIndex(other =>
+            JSON.stringify(other) === JSON.stringify(item)
+          ) === index
+        );
+      }
+
+      state = {
+        ...state,
+        ...imported,
+        progress: mergedProgress,
+        tasks: mergeArrays(state.tasks, imported.tasks),
+        notes: mergeArrays(state.notes, imported.notes),
+        quizHistory: mergeArrays(
+          state.quizHistory,
+          imported.quizHistory
+        )
+      };
+
+      save();
+      render();
+      toast("Backup safely merged!");
+    } catch (e) {
+      console.error("Backup import failed:", e);
+      toast("That backup file could not be read");
+    }
+  };
+
+  r.readAsText(file);
+}
+
 $("#nav").addEventListener("click",e=>{let b=e.target.closest("[data-view]");if(b)setView(b.dataset.view)});$("#menuBtn").onclick = () =>
 document.querySelector(".sidebar").classList.toggle("open");$("#exportBtn").onclick=()=>{let choice=confirm("Export a backup of your progress now? Choose Cancel to import a backup instead.");if(choice)exportBackup();else $("#importFile").click()};$("#importFile").onchange=e=>{if(e.target.files[0])importBackup(e.target.files[0])};
 function connection(){let online=navigator.onLine;$("#connectionText").textContent=online?"Online · saved on device":"Offline mode · available";$("#connectionText").previousElementSibling.style.background=online?"#19a77a":"#f0a343"}
