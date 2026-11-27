@@ -222,6 +222,7 @@ async function restoreStudentSession() {
 }
 }
 
+
 async function loadStudentCloudProgress(user) {
   if (!user || !supabaseClient) return;
 
@@ -245,42 +246,71 @@ async function loadStudentCloudProgress(user) {
     localStorage.getItem("studyspace-jamb-2027") || "{}"
   );
 
-  const hasLocalProgress =
-    Object.keys(localState.progress || {}).length > 0 ||
-    (localState.tasks || []).length > 0 ||
-    (localState.notes || []).length > 0;
+  const cloudState = data.data || {};
 
-  if (hasLocalProgress) {
-    console.log("Local progress exists. Cloud restore paused to protect it.");
-    return;
+  // Merge topic progress from both devices
+  const mergedProgress = {
+    ...(cloudState.progress || {}),
+    ...(localState.progress || {})
+  };
+
+  for (const key of Object.keys(mergedProgress)) {
+    if (
+      cloudState.progress?.[key] === "Completed" ||
+      localState.progress?.[key] === "Completed"
+    ) {
+      mergedProgress[key] = "Completed";
+    }
   }
 
-  state = { ...state, ...data.data };
+  // Combine arrays without removing existing entries
+  function mergeArrays(local, cloud) {
+    const combined = [...(cloud || []), ...(local || [])];
 
+    return combined.filter((item, index, array) =>
+      array.findIndex(other =>
+        JSON.stringify(other) === JSON.stringify(item)
+      ) === index
+    );
+  }
+
+  // Build the merged student record
+  state = {
+    ...cloudState,
+    ...localState,
+
+    progress: mergedProgress,
+
+    tasks: mergeArrays(
+      localState.tasks,
+      cloudState.tasks
+    ),
+
+    notes: mergeArrays(
+      localState.notes,
+      cloudState.notes
+    ),
+
+    quizHistory: mergeArrays(
+      localState.quizHistory,
+      cloudState.quizHistory
+    )
+  };
+
+  // Save the merged record locally
   localStorage.setItem(
     "studyspace-jamb-2027",
     JSON.stringify(state)
   );
 
+  // Upload the merged record back to the cloud
+  save();
+
   render();
 
-  console.log("Cloud progress restored successfully!");
+  console.log("Cloud and local progress merged successfully!");
 }
 
-
-supabaseClient.auth.onAuthStateChange((event, session) => {
-  cloudUser = session?.user || null;
-
-  $("#accountBtn").textContent = cloudUser
-    ? "Account"
-    : "Sign in";
-
-  if (session?.user && event === "SIGNED_IN") {
-    setTimeout(() => {
-      loadStudentCloudProgress(session.user);
-    }, 0);
-  }
-});
 
 // DISPLAY STUDENT PROFILE
 
