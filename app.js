@@ -61,6 +61,17 @@ function save(){
     }
   }, 1000);
 }
+
+// AUTOMATIC CLOUD SYNC WHEN INTERNET RETURNS
+
+window.addEventListener("online", async () => {
+  if (!cloudUser || !supabaseClient) return;
+
+  console.log("Internet restored. Checking cloud progress...");
+
+  await loadStudentCloudProgress(cloudUser);
+});
+
 function loadState(){try{state={...state,...JSON.parse(localStorage.getItem("studyspace-jamb-2027")||"{}")}}catch(e){};state.progress||={};state.tasks||=[];state.notes||=[];state.quizHistory||=[];if(!Array.isArray(state.selectedSubjects))state.selectedSubjects=["Use of English","Mathematics","Physics","Chemistry"]}
 function allTopics(){return Object.values(syllabus).reduce((a,b)=>a+b.length,0)}
 function completed(){return Object.values(state.progress).filter(x=>x==="Completed").length}
