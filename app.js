@@ -35,30 +35,48 @@ async function loadData(){try{const r=await fetch("syllabus.json");syllabus=awai
 let cloudUser = null;
 let cloudSaveTimer = null;
 
+
 function save(){
-  localStorage.setItem("studyspace-jamb-2027",JSON.stringify(state));
+  localStorage.setItem("studyspace-jamb-2027", JSON.stringify(state));
   $("#saveState").textContent = "● Saved locally";
+
   if (!cloudUser || !supabaseClient) return;
 
   clearTimeout(cloudSaveTimer);
 
   cloudSaveTimer = setTimeout(async () => {
     const savedData = JSON.parse(JSON.stringify(state));
+    const userId = cloudUser.id;
 
-    const { error } = await supabaseClient
-      .from("student_progress")
-      .upsert({
-        user_id: cloudUser.id,
-        data: savedData,
-        updated_at: new Date().toISOString()
-      });
+    async function uploadProgress(attempt = 1) {
+      if (!navigator.onLine) {
+        $("#saveState").textContent = "● Saved locally — waiting for internet";
+        return;
+      }
 
-    if (error) {
-      console.error("Cloud save failed:", error.message);
-      $("#saveState").textContent = "● Saved locally — cloud pending";
-    } else {
-      $("#saveState").textContent = "● Saved to cloud";
+      const { error } = await supabaseClient
+        .from("student_progress")
+        .upsert({
+          user_id: userId,
+          data: savedData,
+          updated_at: new Date().toISOString()
+        });
+
+      if (error) {
+        console.error("Cloud save failed:", error.message);
+
+        $("#saveState").textContent =
+          "● Saved locally — cloud pending";
+
+        if (attempt < 3 && navigator.onLine) {
+          setTimeout(() => uploadProgress(attempt + 1), 3000);
+        }
+      } else {
+        $("#saveState").textContent = "● Saved to cloud";
+      }
     }
+
+    await uploadProgress();
   }, 1000);
 }
 
@@ -248,16 +266,15 @@ async function loadStudentCloudProgress(user) {
     return;
   }
 
-  if (!data) {
-    console.log("No cloud progress found for this student yet.");
-    return;
-  }
+if (!data) {
+  console.log("No cloud record yet. Preparing to upload local progress.");
+}
 
   const localState = JSON.parse(
     localStorage.getItem("studyspace-jamb-2027") || "{}"
   );
 
-  const cloudState = data.data || {};
+  const cloudState = data?.data || {};
 
   // Merge topic progress from both devices
   const mergedProgress = {
