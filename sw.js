@@ -1,6 +1,5 @@
 
-const CACHE = "studyspace-jamb-v6";
-
+const CACHE = "studyspace-jamb-v7";
 const FILES = [
   "./",
   "./index.html",
