@@ -174,15 +174,33 @@ function importBackup(file) {
         }
       }
 
-      function mergeArrays(a, b) {
-        const combined = [...(a || []), ...(b || [])];
+      function stableStringify(value) {
+  if (Array.isArray(value)) {
+    return `[${value.map(stableStringify).join(",")}]`;
+  }
 
-        return combined.filter((item, index, array) =>
-          array.findIndex(other =>
-            JSON.stringify(other) === JSON.stringify(item)
-          ) === index
-        );
-      }
+  if (value && typeof value === "object") {
+    return `{${Object.keys(value).sort().map(key =>
+      JSON.stringify(key) + ":" + stableStringify(value[key])
+    ).join(",")}}`;
+  }
+
+  return JSON.stringify(value);
+}
+
+function mergeArrays(a, b) {
+  const combined = [...(a || []), ...(b || [])];
+  const seen = new Set();
+
+  return combined.filter(item => {
+    const key = stableStringify(item);
+
+    if (seen.has(key)) return false;
+
+    seen.add(key);
+    return true;
+  });
+}
 
       state = {
         ...state,
